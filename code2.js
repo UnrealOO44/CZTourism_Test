@@ -254,7 +254,7 @@ if (isConditionTrue_0) {
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDAction_9595btnObjects2.length ;i < len;++i) {
-    gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].setX(((gdjs.evtTools.window.getWindowInnerWidth() - (((gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].getWidth()) * runtimeScene.getGame().getVariables().getFromIndex(6).getAsNumber()) + 50)) / 2) + (((gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].getWidth()) + 50) * gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].getVariables().getFromIndex(0).getAsNumber()));
+    gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].setX(((1920 - (((gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].getWidth()) * runtimeScene.getGame().getVariables().getFromIndex(6).getAsNumber()) + 50)) / 2) + (((gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].getWidth()) + 50) * gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].getVariables().getFromIndex(0).getAsNumber()));
 }
 }
 }
@@ -275,11 +275,11 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Action_btn"), gdjs.Apartment_952Code.GDAction_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.Apartment_952Code.GDButton_9595textObjects2);
 {for(var i = 0, len = gdjs.Apartment_952Code.GDAction_9595btnObjects2.length ;i < len;++i) {
-    gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].getWidth())) / 2);
+    gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].setX((1920 - (gdjs.Apartment_952Code.GDAction_9595btnObjects2[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.Apartment_952Code.GDButton_9595textObjects2[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.Apartment_952Code.GDButton_9595textObjects2[i].getWidth())) / 2);
+    gdjs.Apartment_952Code.GDButton_9595textObjects2[i].setX((1920 - (gdjs.Apartment_952Code.GDButton_9595textObjects2[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDButton_9595textObjects2.length ;i < len;++i) {
@@ -683,7 +683,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Apartment_952C
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotificationObjects1.length ;i < len;++i) {
-    gdjs.Apartment_952Code.GDNotificationObjects1[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.Apartment_952Code.GDNotificationObjects1[i].getWidth())) / 2);
+    gdjs.Apartment_952Code.GDNotificationObjects1[i].setX((1920 - (gdjs.Apartment_952Code.GDNotificationObjects1[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotification_9595HeadObjects1.length ;i < len;++i) {
@@ -691,7 +691,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Apartment_952C
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotification_9595HeadObjects1.length ;i < len;++i) {
-    gdjs.Apartment_952Code.GDNotification_9595HeadObjects1[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.Apartment_952Code.GDNotification_9595HeadObjects1[i].getWidth())) / 2);
+    gdjs.Apartment_952Code.GDNotification_9595HeadObjects1[i].setX((1920 - (gdjs.Apartment_952Code.GDNotification_9595HeadObjects1[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotification_9595textObjects1.length ;i < len;++i) {
@@ -699,7 +699,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Apartment_952C
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotification_9595textObjects1.length ;i < len;++i) {
-    gdjs.Apartment_952Code.GDNotification_9595textObjects1[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.Apartment_952Code.GDNotification_9595textObjects1[i].getWidth())) / 2);
+    gdjs.Apartment_952Code.GDNotification_9595textObjects1[i].setX((1920 - (gdjs.Apartment_952Code.GDNotification_9595textObjects1[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotification_9595down_9595btnObjects1.length ;i < len;++i) {
