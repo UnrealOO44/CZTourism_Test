@@ -280,7 +280,7 @@ gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.HallwayCode.GDButton
 }
 }
 {for(var i = 0, len = gdjs.HallwayCode.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDButton_9595textObjects2[i].setY((( gdjs.HallwayCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.HallwayCode.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.HallwayCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.HallwayCode.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.HallwayCode.GDButton_9595textObjects2[i].getHeight())));
+    gdjs.HallwayCode.GDButton_9595textObjects2[i].setY((( gdjs.HallwayCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.HallwayCode.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.HallwayCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.HallwayCode.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.HallwayCode.GDButton_9595textObjects2[i].getHeight()) / 2) - 10);
 }
 }
 {for(var i = 0, len = gdjs.HallwayCode.GDButton_9595textObjects2.length ;i < len;++i) {
@@ -638,11 +638,15 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_close_btn"), gdjs.HallwayCo
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.HallwayCode.GDNotification_9595textObjects1);
 {for(var i = 0, len = gdjs.HallwayCode.GDNotificationObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDNotificationObjects1[i].getBehavior("Resizable").setWidth(1980);
+}
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDNotificationObjects1.length ;i < len;++i) {
     gdjs.HallwayCode.GDNotificationObjects1[i].setY(1100);
 }
 }
 {for(var i = 0, len = gdjs.HallwayCode.GDNotificationObjects1.length ;i < len;++i) {
-    gdjs.HallwayCode.GDNotificationObjects1[i].setX(-((((gdjs.HallwayCode.GDNotificationObjects1[i].getWidth()) - gdjs.evtTools.window.getWindowInnerWidth()) / 2)));
+    gdjs.HallwayCode.GDNotificationObjects1[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.HallwayCode.GDNotificationObjects1[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595HeadObjects1.length ;i < len;++i) {

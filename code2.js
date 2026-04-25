@@ -283,7 +283,7 @@ gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.Apartment_952Code.GD
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.Apartment_952Code.GDButton_9595textObjects2[i].setY((( gdjs.Apartment_952Code.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.Apartment_952Code.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.Apartment_952Code.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.Apartment_952Code.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.Apartment_952Code.GDButton_9595textObjects2[i].getHeight())));
+    gdjs.Apartment_952Code.GDButton_9595textObjects2[i].setY((( gdjs.Apartment_952Code.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.Apartment_952Code.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.Apartment_952Code.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.Apartment_952Code.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.Apartment_952Code.GDButton_9595textObjects2[i].getHeight()) / 2) - 10);
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDButton_9595textObjects2.length ;i < len;++i) {
@@ -675,11 +675,15 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_close_btn"), gdjs.Apartment
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Apartment_952Code.GDNotification_9595down_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Apartment_952Code.GDNotification_9595textObjects1);
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotificationObjects1.length ;i < len;++i) {
+    gdjs.Apartment_952Code.GDNotificationObjects1[i].getBehavior("Resizable").setWidth(1980);
+}
+}
+{for(var i = 0, len = gdjs.Apartment_952Code.GDNotificationObjects1.length ;i < len;++i) {
     gdjs.Apartment_952Code.GDNotificationObjects1[i].setY(1100);
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotificationObjects1.length ;i < len;++i) {
-    gdjs.Apartment_952Code.GDNotificationObjects1[i].setX(-((((gdjs.Apartment_952Code.GDNotificationObjects1[i].getWidth()) - gdjs.evtTools.window.getWindowInnerWidth()) / 2)));
+    gdjs.Apartment_952Code.GDNotificationObjects1[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.Apartment_952Code.GDNotificationObjects1[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.Apartment_952Code.GDNotification_9595HeadObjects1.length ;i < len;++i) {

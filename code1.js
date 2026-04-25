@@ -123,7 +123,7 @@ gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.ComputerCode.GDButto
 }
 }
 {for(var i = 0, len = gdjs.ComputerCode.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.ComputerCode.GDButton_9595textObjects2[i].setY((( gdjs.ComputerCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.ComputerCode.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.ComputerCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.ComputerCode.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.ComputerCode.GDButton_9595textObjects2[i].getHeight())));
+    gdjs.ComputerCode.GDButton_9595textObjects2[i].setY((( gdjs.ComputerCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.ComputerCode.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.ComputerCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.ComputerCode.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.ComputerCode.GDButton_9595textObjects2[i].getHeight()) / 2) - 10);
 }
 }
 {for(var i = 0, len = gdjs.ComputerCode.GDButton_9595textObjects2.length ;i < len;++i) {
@@ -659,11 +659,15 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_close_btn"), gdjs.ComputerC
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.ComputerCode.GDNotification_9595down_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.ComputerCode.GDNotification_9595textObjects1);
 {for(var i = 0, len = gdjs.ComputerCode.GDNotificationObjects1.length ;i < len;++i) {
+    gdjs.ComputerCode.GDNotificationObjects1[i].getBehavior("Resizable").setWidth(1980);
+}
+}
+{for(var i = 0, len = gdjs.ComputerCode.GDNotificationObjects1.length ;i < len;++i) {
     gdjs.ComputerCode.GDNotificationObjects1[i].setY(1100);
 }
 }
 {for(var i = 0, len = gdjs.ComputerCode.GDNotificationObjects1.length ;i < len;++i) {
-    gdjs.ComputerCode.GDNotificationObjects1[i].setX(-((((gdjs.ComputerCode.GDNotificationObjects1[i].getWidth()) - gdjs.evtTools.window.getWindowInnerWidth()) / 2)));
+    gdjs.ComputerCode.GDNotificationObjects1[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.ComputerCode.GDNotificationObjects1[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.ComputerCode.GDNotification_9595HeadObjects1.length ;i < len;++i) {

@@ -296,7 +296,7 @@ gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.ApartmentCode.GDButt
 }
 }
 {for(var i = 0, len = gdjs.ApartmentCode.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.ApartmentCode.GDButton_9595textObjects2[i].setY((( gdjs.ApartmentCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.ApartmentCode.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.ApartmentCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.ApartmentCode.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.ApartmentCode.GDButton_9595textObjects2[i].getHeight())));
+    gdjs.ApartmentCode.GDButton_9595textObjects2[i].setY((( gdjs.ApartmentCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.ApartmentCode.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.ApartmentCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.ApartmentCode.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.ApartmentCode.GDButton_9595textObjects2[i].getHeight()) / 2) - 10);
 }
 }
 {for(var i = 0, len = gdjs.ApartmentCode.GDButton_9595textObjects2.length ;i < len;++i) {
@@ -782,11 +782,15 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_close_btn"), gdjs.Apartment
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.ApartmentCode.GDNotification_9595down_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.ApartmentCode.GDNotification_9595textObjects1);
 {for(var i = 0, len = gdjs.ApartmentCode.GDNotificationObjects1.length ;i < len;++i) {
+    gdjs.ApartmentCode.GDNotificationObjects1[i].getBehavior("Resizable").setWidth(1980);
+}
+}
+{for(var i = 0, len = gdjs.ApartmentCode.GDNotificationObjects1.length ;i < len;++i) {
     gdjs.ApartmentCode.GDNotificationObjects1[i].setY(1100);
 }
 }
 {for(var i = 0, len = gdjs.ApartmentCode.GDNotificationObjects1.length ;i < len;++i) {
-    gdjs.ApartmentCode.GDNotificationObjects1[i].setX(-((((gdjs.ApartmentCode.GDNotificationObjects1[i].getWidth()) - gdjs.evtTools.window.getWindowInnerWidth()) / 2)));
+    gdjs.ApartmentCode.GDNotificationObjects1[i].setX((gdjs.evtTools.window.getWindowInnerWidth() - (gdjs.ApartmentCode.GDNotificationObjects1[i].getWidth())) / 2);
 }
 }
 {for(var i = 0, len = gdjs.ApartmentCode.GDNotification_9595HeadObjects1.length ;i < len;++i) {
@@ -903,8 +907,6 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.ApartmentCode.GDButton_9595textObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.ApartmentCode.GDNotification_9595HeadObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.ApartmentCode.GDNotification_9595textObjects1);
-{gdjs.evtTools.window.setFullScreen(runtimeScene, true, false);
-}
 {for(var i = 0, len = gdjs.ApartmentCode.GDNotification_9595HeadObjects1.length ;i < len;++i) {
     gdjs.ApartmentCode.GDNotification_9595HeadObjects1[i].getBehavior("Text").setText("Notification:");
 }
@@ -970,6 +972,8 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.ApartmentCode.GDNot
 gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.ApartmentCode.GDNotification_9595HeadObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_close_btn"), gdjs.ApartmentCode.GDNotification_9595close_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.ApartmentCode.GDNotification_9595textObjects1);
+{runtimeScene.getGame().getVariables().getFromIndex(7).setBoolean(false);
+}
 {for(var i = 0, len = gdjs.ApartmentCode.GDNotification_9595textObjects1.length ;i < len;++i) {
     gdjs.ApartmentCode.GDNotification_9595textObjects1[i].getBehavior("Text").setText("I should check my computer for emails.");
 }
