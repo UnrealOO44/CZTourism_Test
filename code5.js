@@ -31,7 +31,7 @@ gdjs.FlightCode.GDNotification_9595close_9595btnObjects1= [];
 gdjs.FlightCode.GDNotification_9595close_9595btnObjects2= [];
 
 
-gdjs.FlightCode.asyncCallback11205388 = function (runtimeScene, asyncObjectsList) {
+gdjs.FlightCode.asyncCallback11208500 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.FlightCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "End of Level 1", false);
 }
@@ -39,7 +39,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.FlightCode.localVariables)
 }
 gdjs.FlightCode.localVariables.length = 0;
 }
-gdjs.FlightCode.idToCallbackMap.set(11205388, gdjs.FlightCode.asyncCallback11205388);
+gdjs.FlightCode.idToCallbackMap.set(11208500, gdjs.FlightCode.asyncCallback11208500);
 gdjs.FlightCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -49,7 +49,7 @@ gdjs.FlightCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.FlightCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.FlightCode.asyncCallback11205388(runtimeScene, asyncObjectsList)), 11205388, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.FlightCode.asyncCallback11208500(runtimeScene, asyncObjectsList)), 11208500, asyncObjectsList);
 }
 }
 
@@ -112,7 +112,7 @@ for (var i = 0, k = 0, l = gdjs.FlightCode.GDFlightObjects1.length;i<l;++i) {
 gdjs.FlightCode.GDFlightObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11199508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11202620);
 }
 }
 if (isConditionTrue_0) {
@@ -132,7 +132,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11204596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11207708);
 }
 }
 if (isConditionTrue_0) {
