@@ -1,59 +1,66 @@
 gdjs.HallwayCode = {};
 gdjs.HallwayCode.localVariables = [];
 gdjs.HallwayCode.idToCallbackMap = new Map();
-gdjs.HallwayCode.forEachIndex2 = 0;
-
-gdjs.HallwayCode.forEachObjects2 = [];
-
-gdjs.HallwayCode.forEachTemporary2 = null;
-
-gdjs.HallwayCode.forEachTotalCount2 = 0;
-
 gdjs.HallwayCode.GDBackgroundObjects1= [];
 gdjs.HallwayCode.GDBackgroundObjects2= [];
 gdjs.HallwayCode.GDBackgroundObjects3= [];
+gdjs.HallwayCode.GDBackgroundObjects4= [];
 gdjs.HallwayCode.GDClick_9595PackageObjects1= [];
 gdjs.HallwayCode.GDClick_9595PackageObjects2= [];
 gdjs.HallwayCode.GDClick_9595PackageObjects3= [];
+gdjs.HallwayCode.GDClick_9595PackageObjects4= [];
 gdjs.HallwayCode.GDAction_9595btnObjects1= [];
 gdjs.HallwayCode.GDAction_9595btnObjects2= [];
 gdjs.HallwayCode.GDAction_9595btnObjects3= [];
+gdjs.HallwayCode.GDAction_9595btnObjects4= [];
 gdjs.HallwayCode.GDButton_9595textObjects1= [];
 gdjs.HallwayCode.GDButton_9595textObjects2= [];
 gdjs.HallwayCode.GDButton_9595textObjects3= [];
+gdjs.HallwayCode.GDButton_9595textObjects4= [];
 gdjs.HallwayCode.GDNotificationObjects1= [];
 gdjs.HallwayCode.GDNotificationObjects2= [];
 gdjs.HallwayCode.GDNotificationObjects3= [];
+gdjs.HallwayCode.GDNotificationObjects4= [];
 gdjs.HallwayCode.GDClose_9595btnObjects1= [];
 gdjs.HallwayCode.GDClose_9595btnObjects2= [];
 gdjs.HallwayCode.GDClose_9595btnObjects3= [];
+gdjs.HallwayCode.GDClose_9595btnObjects4= [];
 gdjs.HallwayCode.GDHint_9595btnObjects1= [];
 gdjs.HallwayCode.GDHint_9595btnObjects2= [];
 gdjs.HallwayCode.GDHint_9595btnObjects3= [];
+gdjs.HallwayCode.GDHint_9595btnObjects4= [];
 gdjs.HallwayCode.GDNotification_9595HeadObjects1= [];
 gdjs.HallwayCode.GDNotification_9595HeadObjects2= [];
 gdjs.HallwayCode.GDNotification_9595HeadObjects3= [];
+gdjs.HallwayCode.GDNotification_9595HeadObjects4= [];
 gdjs.HallwayCode.GDNotification_9595textObjects1= [];
 gdjs.HallwayCode.GDNotification_9595textObjects2= [];
 gdjs.HallwayCode.GDNotification_9595textObjects3= [];
+gdjs.HallwayCode.GDNotification_9595textObjects4= [];
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1= [];
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2= [];
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects3= [];
+gdjs.HallwayCode.GDNotification_9595down_9595btnObjects4= [];
 gdjs.HallwayCode.GDBottomfadeObjects1= [];
 gdjs.HallwayCode.GDBottomfadeObjects2= [];
 gdjs.HallwayCode.GDBottomfadeObjects3= [];
+gdjs.HallwayCode.GDBottomfadeObjects4= [];
 gdjs.HallwayCode.GDSafeareaObjects1= [];
 gdjs.HallwayCode.GDSafeareaObjects2= [];
 gdjs.HallwayCode.GDSafeareaObjects3= [];
+gdjs.HallwayCode.GDSafeareaObjects4= [];
 gdjs.HallwayCode.GDDarkenObjects1= [];
 gdjs.HallwayCode.GDDarkenObjects2= [];
 gdjs.HallwayCode.GDDarkenObjects3= [];
+gdjs.HallwayCode.GDDarkenObjects4= [];
 gdjs.HallwayCode.GDMaskObjects1= [];
 gdjs.HallwayCode.GDMaskObjects2= [];
 gdjs.HallwayCode.GDMaskObjects3= [];
+gdjs.HallwayCode.GDMaskObjects4= [];
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1= [];
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects2= [];
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects3= [];
+gdjs.HallwayCode.GDNotification_9595close_9595btnObjects4= [];
 
 
 gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDHint_95959595btnObjects2Objects = Hashtable.newFrom({"Hint_btn": gdjs.HallwayCode.GDHint_9595btnObjects2});
@@ -210,105 +217,61 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.HallwayCode.mapOfEmptyGDAction_9595btnObjects = Hashtable.newFrom({"Action_btn": []});
-gdjs.HallwayCode.mapOfEmptyGDAction_9595btnObjects = Hashtable.newFrom({"Action_btn": []});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects2Objects = Hashtable.newFrom({"Action_btn": gdjs.HallwayCode.GDAction_9595btnObjects2});
-gdjs.HallwayCode.mapOfEmptyGDAction_9595btnObjects = Hashtable.newFrom({"Action_btn": []});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects2Objects = Hashtable.newFrom({"Action_btn": gdjs.HallwayCode.GDAction_9595btnObjects2});
-gdjs.HallwayCode.eventsList1 = function(runtimeScene) {
+};gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595textObjects1Objects = Hashtable.newFrom({"Notification_text": gdjs.HallwayCode.GDNotification_9595textObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDMaskObjects1Objects = Hashtable.newFrom({"Mask": gdjs.HallwayCode.GDMaskObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595HeadObjects1Objects = Hashtable.newFrom({"Notification_Head": gdjs.HallwayCode.GDNotification_9595HeadObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDMaskObjects1Objects = Hashtable.newFrom({"Mask": gdjs.HallwayCode.GDMaskObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects1Objects = Hashtable.newFrom({"Action_btn": gdjs.HallwayCode.GDAction_9595btnObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects1Objects = Hashtable.newFrom({"Action_btn": gdjs.HallwayCode.GDAction_9595btnObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595down_95959595btnObjects2Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects4Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects4});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects4Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects4});
+gdjs.HallwayCode.asyncCallback11249276 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("Action_btn"), gdjs.HallwayCode.GDAction_9595btnObjects4);
 
-};gdjs.HallwayCode.eventsList2 = function(runtimeScene) {
+gdjs.copyArray(asyncObjectsList.getObjects("Mask"), gdjs.HallwayCode.GDMaskObjects4);
 
-{
+gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.HallwayCode.GDNotificationObjects4);
 
-gdjs.copyArray(runtimeScene.getObjects("Action_btn"), gdjs.HallwayCode.GDAction_9595btnObjects1);
-
-for (gdjs.HallwayCode.forEachIndex2 = 0;gdjs.HallwayCode.forEachIndex2 < gdjs.HallwayCode.GDAction_9595btnObjects1.length;++gdjs.HallwayCode.forEachIndex2) {
-gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.HallwayCode.GDButton_9595textObjects2);
-gdjs.HallwayCode.GDAction_9595btnObjects2.length = 0;
-
-
-gdjs.HallwayCode.forEachTemporary2 = gdjs.HallwayCode.GDAction_9595btnObjects1[gdjs.HallwayCode.forEachIndex2];
-gdjs.HallwayCode.GDAction_9595btnObjects2.push(gdjs.HallwayCode.forEachTemporary2);
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.HallwayCode.GDButton_9595textObjects2.length;i<l;++i) {
-    if ( gdjs.HallwayCode.GDButton_9595textObjects2[i].getVariableNumber(gdjs.HallwayCode.GDButton_9595textObjects2[i].getVariables().getFromIndex(0)) == ((gdjs.HallwayCode.GDAction_9595btnObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.HallwayCode.GDAction_9595btnObjects2[0].getVariables()).getFromIndex(0).getAsNumber() ) {
-        isConditionTrue_0 = true;
-        gdjs.HallwayCode.GDButton_9595textObjects2[k] = gdjs.HallwayCode.GDButton_9595textObjects2[i];
-        ++k;
-    }
-}
-gdjs.HallwayCode.GDButton_9595textObjects2.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9876196);
+{for(var i = 0, len = gdjs.HallwayCode.GDAction_9595btnObjects4.length ;i < len;++i) {
+    gdjs.HallwayCode.GDAction_9595btnObjects4[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects4Objects, null);
 }
 }
-if (isConditionTrue_0) {
-{for(var i = 0, len = gdjs.HallwayCode.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDButton_9595textObjects2[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects2Objects, null);
+{for(var i = 0, len = gdjs.HallwayCode.GDMaskObjects4.length ;i < len;++i) {
+    gdjs.HallwayCode.GDMaskObjects4[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects4Objects, null);
 }
 }
-{for(var i = 0, len = gdjs.HallwayCode.GDAction_9595btnObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDAction_9595btnObjects2[i].setX(((1920 - (((gdjs.HallwayCode.GDAction_9595btnObjects2[i].getWidth()) * runtimeScene.getGame().getVariables().getFromIndex(6).getAsNumber()) + 50)) / 2) + (((gdjs.HallwayCode.GDAction_9595btnObjects2[i].getWidth()) + 50) * gdjs.HallwayCode.GDAction_9595btnObjects2[i].getVariables().getFromIndex(0).getAsNumber()));
+gdjs.HallwayCode.localVariables.length = 0;
 }
-}
-}
-}
-
-}
-
-
-};gdjs.HallwayCode.eventsList3 = function(runtimeScene) {
+gdjs.HallwayCode.idToCallbackMap.set(11249276, gdjs.HallwayCode.asyncCallback11249276);
+gdjs.HallwayCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.HallwayCode.mapOfEmptyGDAction_9595btnObjects) == 1;
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Action_btn"), gdjs.HallwayCode.GDAction_9595btnObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.HallwayCode.GDButton_9595textObjects2);
-{for(var i = 0, len = gdjs.HallwayCode.GDAction_9595btnObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDAction_9595btnObjects2[i].setX((1920 - (gdjs.HallwayCode.GDAction_9595btnObjects2[i].getWidth())) / 2);
-}
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDButton_9595textObjects2[i].setX((1920 - (gdjs.HallwayCode.GDButton_9595textObjects2[i].getWidth())) / 2);
-}
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDButton_9595textObjects2[i].setY((( gdjs.HallwayCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.HallwayCode.GDAction_9595btnObjects2[0].getPointY("")) + ((( gdjs.HallwayCode.GDAction_9595btnObjects2.length === 0 ) ? 0 :gdjs.HallwayCode.GDAction_9595btnObjects2[0].getHeight()) - (gdjs.HallwayCode.GDButton_9595textObjects2[i].getHeight()) / 2) - 10);
-}
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDButton_9595textObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDButton_9595textObjects2[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects2Objects, null);
-}
-}
-}
-
-}
-
-
 {
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.HallwayCode.mapOfEmptyGDAction_9595btnObjects) > 1;
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.HallwayCode.eventsList2(runtimeScene);} //End of subevents
+const parentAsyncObjectsList = asyncObjectsList;
+{
+const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
+asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+/* Don't save Action_btn as it will be provided by the parent asyncObjectsList. */
+/* Don't save Mask as it will be provided by the parent asyncObjectsList. */
+/* Don't save Notification as it will be provided by the parent asyncObjectsList. */
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.HallwayCode.asyncCallback11249276(runtimeScene, asyncObjectsList)), 11249276, asyncObjectsList);
+}
 }
 
 }
 
 
-};gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595down_95959595btnObjects2Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2});
-gdjs.HallwayCode.asyncCallback10358140 = function (runtimeScene, asyncObjectsList) {
+};gdjs.HallwayCode.asyncCallback11249164 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.HallwayCode.GDNotification_9595down_9595btnObjects3);
 
@@ -316,9 +279,88 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Hallwa
     gdjs.HallwayCode.GDNotification_9595down_9595btnObjects3[i].getBehavior("Tween").addObjectAngleTween2("", 180, "linear", 0.2, false);
 }
 }
+
+{ //Subevents
+gdjs.HallwayCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.HallwayCode.localVariables.length = 0;
 }
-gdjs.HallwayCode.idToCallbackMap.set(10358140, gdjs.HallwayCode.asyncCallback10358140);
+gdjs.HallwayCode.idToCallbackMap.set(11249164, gdjs.HallwayCode.asyncCallback11249164);
+gdjs.HallwayCode.eventsList2 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+for (const obj of gdjs.HallwayCode.GDAction_9595btnObjects2) asyncObjectsList.addObject("Action_btn", obj);
+for (const obj of gdjs.HallwayCode.GDMaskObjects2) asyncObjectsList.addObject("Mask", obj);
+for (const obj of gdjs.HallwayCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
+for (const obj of gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2) asyncObjectsList.addObject("Notification_down_btn", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.HallwayCode.asyncCallback11249164(runtimeScene, asyncObjectsList)), 11249164, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595down_95959595btnObjects1Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects3Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects3});
+gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects3Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects3});
+gdjs.HallwayCode.asyncCallback11252068 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("Action_btn"), gdjs.HallwayCode.GDAction_9595btnObjects3);
+
+gdjs.copyArray(asyncObjectsList.getObjects("Mask"), gdjs.HallwayCode.GDMaskObjects3);
+
+gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.HallwayCode.GDNotificationObjects3);
+
+{for(var i = 0, len = gdjs.HallwayCode.GDAction_9595btnObjects3.length ;i < len;++i) {
+    gdjs.HallwayCode.GDAction_9595btnObjects3[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects3Objects, null);
+}
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDMaskObjects3.length ;i < len;++i) {
+    gdjs.HallwayCode.GDMaskObjects3[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects3Objects, null);
+}
+}
+gdjs.HallwayCode.localVariables.length = 0;
+}
+gdjs.HallwayCode.idToCallbackMap.set(11252068, gdjs.HallwayCode.asyncCallback11252068);
+gdjs.HallwayCode.eventsList3 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+{
+const parentAsyncObjectsList = asyncObjectsList;
+{
+const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
+asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+/* Don't save Action_btn as it will be provided by the parent asyncObjectsList. */
+/* Don't save Mask as it will be provided by the parent asyncObjectsList. */
+/* Don't save Notification as it will be provided by the parent asyncObjectsList. */
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.HallwayCode.asyncCallback11252068(runtimeScene, asyncObjectsList)), 11252068, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.HallwayCode.asyncCallback11252316 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2);
+
+{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2.length ;i < len;++i) {
+    gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2[i].getBehavior("Tween").addObjectAngleTween2("", 0, "linear", 0.2, false);
+}
+}
+
+{ //Subevents
+gdjs.HallwayCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.HallwayCode.localVariables.length = 0;
+}
+gdjs.HallwayCode.idToCallbackMap.set(11252316, gdjs.HallwayCode.asyncCallback11252316);
 gdjs.HallwayCode.eventsList4 = function(runtimeScene) {
 
 {
@@ -328,44 +370,18 @@ gdjs.HallwayCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
-for (const obj of gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2) asyncObjectsList.addObject("Notification_down_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.HallwayCode.asyncCallback10358140(runtimeScene, asyncObjectsList)), 10358140, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595down_95959595btnObjects1Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1});
-gdjs.HallwayCode.asyncCallback9389916 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2);
-
-{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2[i].getBehavior("Tween").addObjectAngleTween2("", 0, "linear", 0.2, false);
-}
-}
-gdjs.HallwayCode.localVariables.length = 0;
-}
-gdjs.HallwayCode.idToCallbackMap.set(9389916, gdjs.HallwayCode.asyncCallback9389916);
-gdjs.HallwayCode.eventsList5 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+for (const obj of gdjs.HallwayCode.GDAction_9595btnObjects1) asyncObjectsList.addObject("Action_btn", obj);
+for (const obj of gdjs.HallwayCode.GDMaskObjects1) asyncObjectsList.addObject("Mask", obj);
+for (const obj of gdjs.HallwayCode.GDNotificationObjects1) asyncObjectsList.addObject("Notification", obj);
 for (const obj of gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1) asyncObjectsList.addObject("Notification_down_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.HallwayCode.asyncCallback9389916(runtimeScene, asyncObjectsList)), 9389916, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.HallwayCode.asyncCallback11252316(runtimeScene, asyncObjectsList)), 11252316, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.HallwayCode.eventsList6 = function(runtimeScene) {
+};gdjs.HallwayCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -399,7 +415,7 @@ for (var i = 0, k = 0, l = gdjs.HallwayCode.GDNotification_9595down_9595btnObjec
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10113844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11248404);
 }
 }
 }
@@ -423,7 +439,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.HallwayCode.GDNotif
 }
 
 { //Subevents
-gdjs.HallwayCode.eventsList4(runtimeScene);} //End of subevents
+gdjs.HallwayCode.eventsList2(runtimeScene);} //End of subevents
 }
 
 }
@@ -461,7 +477,7 @@ for (var i = 0, k = 0, l = gdjs.HallwayCode.GDNotification_9595down_9595btnObjec
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9549796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11250756);
 }
 }
 }
@@ -486,20 +502,47 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.HallwayCode.GD
 }
 
 { //Subevents
-gdjs.HallwayCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.HallwayCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 }
 
 
 };gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595close_95959595btnObjects1Objects = Hashtable.newFrom({"Notification_close_btn": gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1});
-gdjs.HallwayCode.asyncCallback9828612 = function (runtimeScene, asyncObjectsList) {
+gdjs.HallwayCode.asyncCallback11254724 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(7).setBoolean(true);
 }
 gdjs.HallwayCode.localVariables.length = 0;
 }
-gdjs.HallwayCode.idToCallbackMap.set(9828612, gdjs.HallwayCode.asyncCallback9828612);
+gdjs.HallwayCode.idToCallbackMap.set(11254724, gdjs.HallwayCode.asyncCallback11254724);
+gdjs.HallwayCode.eventsList6 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.HallwayCode.asyncCallback11254724(runtimeScene, asyncObjectsList)), 11254724, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDClick_95959595PackageObjects1Objects = Hashtable.newFrom({"Click_Package": gdjs.HallwayCode.GDClick_9595PackageObjects1});
+gdjs.HallwayCode.asyncCallback11080196 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2);
+{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2.length ;i < len;++i) {
+    gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2[i].getBehavior("Tween").addObjectAngleTween2("", 0, "linear", 0.2, false);
+}
+}
+gdjs.HallwayCode.localVariables.length = 0;
+}
+gdjs.HallwayCode.idToCallbackMap.set(11080196, gdjs.HallwayCode.asyncCallback11080196);
 gdjs.HallwayCode.eventsList7 = function(runtimeScene) {
 
 {
@@ -509,44 +552,7 @@ gdjs.HallwayCode.eventsList7 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.HallwayCode.asyncCallback9828612(runtimeScene, asyncObjectsList)), 9828612, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595textObjects1Objects = Hashtable.newFrom({"Notification_text": gdjs.HallwayCode.GDNotification_9595textObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDMaskObjects1Objects = Hashtable.newFrom({"Mask": gdjs.HallwayCode.GDMaskObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595HeadObjects1Objects = Hashtable.newFrom({"Notification_Head": gdjs.HallwayCode.GDNotification_9595HeadObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDMaskObjects1Objects = Hashtable.newFrom({"Mask": gdjs.HallwayCode.GDMaskObjects1});
-gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDClick_95959595PackageObjects1Objects = Hashtable.newFrom({"Click_Package": gdjs.HallwayCode.GDClick_9595PackageObjects1});
-gdjs.HallwayCode.asyncCallback10698044 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2);
-{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2.length ;i < len;++i) {
-    gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2[i].getBehavior("Tween").addObjectAngleTween2("", 0, "linear", 0.2, false);
-}
-}
-gdjs.HallwayCode.localVariables.length = 0;
-}
-gdjs.HallwayCode.idToCallbackMap.set(10698044, gdjs.HallwayCode.asyncCallback10698044);
-gdjs.HallwayCode.eventsList8 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.HallwayCode.asyncCallback10698044(runtimeScene, asyncObjectsList)), 10698044, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.HallwayCode.asyncCallback11080196(runtimeScene, asyncObjectsList)), 11080196, asyncObjectsList);
 }
 }
 
@@ -557,7 +563,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8)
 gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
 gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects = Hashtable.newFrom({"Notification": gdjs.HallwayCode.GDNotificationObjects1});
 gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects1Objects = Hashtable.newFrom({"Action_btn": gdjs.HallwayCode.GDAction_9595btnObjects1});
-gdjs.HallwayCode.asyncCallback10703900 = function (runtimeScene, asyncObjectsList) {
+gdjs.HallwayCode.asyncCallback11086052 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2);
 {for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2.length ;i < len;++i) {
@@ -568,7 +574,32 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.HallwayCod
 }
 gdjs.HallwayCode.localVariables.length = 0;
 }
-gdjs.HallwayCode.idToCallbackMap.set(10703900, gdjs.HallwayCode.asyncCallback10703900);
+gdjs.HallwayCode.idToCallbackMap.set(11086052, gdjs.HallwayCode.asyncCallback11086052);
+gdjs.HallwayCode.eventsList8 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.HallwayCode.asyncCallback11086052(runtimeScene, asyncObjectsList)), 11086052, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.HallwayCode.asyncCallback11087556 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Apartment_Desk", false);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(3).setBoolean(false);
+}
+gdjs.HallwayCode.localVariables.length = 0;
+}
+gdjs.HallwayCode.idToCallbackMap.set(11087556, gdjs.HallwayCode.asyncCallback11087556);
 gdjs.HallwayCode.eventsList9 = function(runtimeScene) {
 
 {
@@ -578,39 +609,14 @@ gdjs.HallwayCode.eventsList9 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.HallwayCode.asyncCallback10703900(runtimeScene, asyncObjectsList)), 10703900, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.HallwayCode.asyncCallback11087556(runtimeScene, asyncObjectsList)), 11087556, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.HallwayCode.asyncCallback10705404 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.HallwayCode.localVariables);
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Apartment_Desk", false);
-}
-{runtimeScene.getGame().getVariables().getFromIndex(3).setBoolean(false);
-}
-gdjs.HallwayCode.localVariables.length = 0;
-}
-gdjs.HallwayCode.idToCallbackMap.set(10705404, gdjs.HallwayCode.asyncCallback10705404);
-gdjs.HallwayCode.eventsList10 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.HallwayCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.HallwayCode.asyncCallback10705404(runtimeScene, asyncObjectsList)), 10705404, asyncObjectsList);
-}
-}
-
-}
-
-
-};gdjs.HallwayCode.eventsList11 = function(runtimeScene) {
+};gdjs.HallwayCode.eventsList10 = function(runtimeScene) {
 
 {
 
@@ -627,10 +633,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(8114628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11229628);
 }
 }
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Action_btn"), gdjs.HallwayCode.GDAction_9595btnObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Button_text"), gdjs.HallwayCode.GDButton_9595textObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Mask"), gdjs.HallwayCode.GDMaskObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.HallwayCode.GDNotificationObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.HallwayCode.GDNotification_9595HeadObjects1);
@@ -685,11 +693,48 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.HallwayCode.GD
     gdjs.HallwayCode.GDMaskObjects1[i].setY(1135);
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.HallwayCode.mapOfEmptyGDAction_9595btnObjects));
+{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595HeadObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDNotification_9595HeadObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
 }
-
-{ //Subevents
-gdjs.HallwayCode.eventsList3(runtimeScene);} //End of subevents
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595textObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDNotification_9595textObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
+}
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
+}
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
+}
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDAction_9595btnObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDAction_9595btnObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
+}
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDMaskObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDMaskObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
+}
+}
+{gdjs.evtsExt__SpriteMasking__Mask.func(runtimeScene, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595textObjects1Objects, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDMaskObjects1Objects, null);
+}
+{gdjs.evtsExt__SpriteMasking__Mask.func(runtimeScene, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595HeadObjects1Objects, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDMaskObjects1Objects, null);
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDAction_9595btnObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDAction_9595btnObjects1[i].setX((1920 - (gdjs.HallwayCode.GDAction_9595btnObjects1[i].getWidth())) / 2);
+}
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDButton_9595textObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDButton_9595textObjects1[i].setX((1920 - (gdjs.HallwayCode.GDButton_9595textObjects1[i].getWidth())) / 2);
+}
+}
+{for(var i = 0, len = gdjs.HallwayCode.GDButton_9595textObjects1.length ;i < len;++i) {
+    gdjs.HallwayCode.GDButton_9595textObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects1Objects, null);
+}
+}
+{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(gdjs.evtTools.object.getSceneInstancesCount(runtimeScene, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDAction_95959595btnObjects1Objects));
+}
 }
 
 }
@@ -698,7 +743,7 @@ gdjs.HallwayCode.eventsList3(runtimeScene);} //End of subevents
 {
 
 
-gdjs.HallwayCode.eventsList6(runtimeScene);
+gdjs.HallwayCode.eventsList5(runtimeScene);
 }
 
 
@@ -728,7 +773,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9865420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11254404);
 }
 }
 }
@@ -737,12 +782,12 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.HallwayCode.GDNotificationObjects1);
 {for(var i = 0, len = gdjs.HallwayCode.GDNotificationObjects1.length ;i < len;++i) {
-    gdjs.HallwayCode.GDNotificationObjects1[i].getBehavior("Tween").addObjectPositionYTween2("", 1092, "easeInOutQuad", 1, false);
+    gdjs.HallwayCode.GDNotificationObjects1[i].getBehavior("Tween").addObjectPositionYTween2("", 1100, "easeInOutQuad", 1, false);
 }
 }
 
 { //Subevents
-gdjs.HallwayCode.eventsList7(runtimeScene);} //End of subevents
+gdjs.HallwayCode.eventsList6(runtimeScene);} //End of subevents
 }
 
 }
@@ -755,14 +800,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Action_btn"), gdjs.HallwayCode.GDAction_9595btnObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.HallwayCode.GDDarkenObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Mask"), gdjs.HallwayCode.GDMaskObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.HallwayCode.GDNotificationObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.HallwayCode.GDNotification_9595HeadObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Notification_close_btn"), gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.HallwayCode.GDNotification_9595textObjects1);
 {for(var i = 0, len = gdjs.HallwayCode.GDDarkenObjects1.length ;i < len;++i) {
     gdjs.HallwayCode.GDDarkenObjects1[i].getBehavior("Opacity").setOpacity(255);
 }
@@ -770,34 +808,6 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.HallwayCode.GD
 {for(var i = 0, len = gdjs.HallwayCode.GDDarkenObjects1.length ;i < len;++i) {
     gdjs.HallwayCode.GDDarkenObjects1[i].getBehavior("Tween").addObjectOpacityTween2("", 0, "linear", 0.2, false);
 }
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595HeadObjects1.length ;i < len;++i) {
-    gdjs.HallwayCode.GDNotification_9595HeadObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
-}
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595textObjects1.length ;i < len;++i) {
-    gdjs.HallwayCode.GDNotification_9595textObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
-}
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1.length ;i < len;++i) {
-    gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
-}
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1.length ;i < len;++i) {
-    gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
-}
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDAction_9595btnObjects1.length ;i < len;++i) {
-    gdjs.HallwayCode.GDAction_9595btnObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
-}
-}
-{for(var i = 0, len = gdjs.HallwayCode.GDMaskObjects1.length ;i < len;++i) {
-    gdjs.HallwayCode.GDMaskObjects1[i].getBehavior("Sticker").Stick(gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotificationObjects1Objects, null);
-}
-}
-{gdjs.evtsExt__SpriteMasking__Mask.func(runtimeScene, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595textObjects1Objects, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDMaskObjects1Objects, null);
-}
-{gdjs.evtsExt__SpriteMasking__Mask.func(runtimeScene, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDNotification_95959595HeadObjects1Objects, gdjs.HallwayCode.mapOfGDgdjs_9546HallwayCode_9546GDMaskObjects1Objects, null);
 }
 }
 
@@ -853,7 +863,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10697844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11079996);
 }
 }
 }
@@ -867,7 +877,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.HallwayCode.GD
 }
 
 { //Subevents
-gdjs.HallwayCode.eventsList8(runtimeScene);} //End of subevents
+gdjs.HallwayCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 }
@@ -885,7 +895,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10699700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11081852);
 }
 }
 }
@@ -912,7 +922,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.HallwayCode.GDNotif
 }
 
 { //Subevents
-gdjs.HallwayCode.eventsList9(runtimeScene);} //End of subevents
+gdjs.HallwayCode.eventsList8(runtimeScene);} //End of subevents
 }
 
 }
@@ -927,7 +937,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10705260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11087412);
 }
 }
 if (isConditionTrue_0) {
@@ -938,7 +948,7 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.HallwayCode.GDDarkenObjec
 }
 
 { //Subevents
-gdjs.HallwayCode.eventsList10(runtimeScene);} //End of subevents
+gdjs.HallwayCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 }
@@ -962,95 +972,125 @@ runtimeScene.getOnceTriggers().startNewFrame();
 gdjs.HallwayCode.GDBackgroundObjects1.length = 0;
 gdjs.HallwayCode.GDBackgroundObjects2.length = 0;
 gdjs.HallwayCode.GDBackgroundObjects3.length = 0;
+gdjs.HallwayCode.GDBackgroundObjects4.length = 0;
 gdjs.HallwayCode.GDClick_9595PackageObjects1.length = 0;
 gdjs.HallwayCode.GDClick_9595PackageObjects2.length = 0;
 gdjs.HallwayCode.GDClick_9595PackageObjects3.length = 0;
+gdjs.HallwayCode.GDClick_9595PackageObjects4.length = 0;
 gdjs.HallwayCode.GDAction_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDAction_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDAction_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDAction_9595btnObjects4.length = 0;
 gdjs.HallwayCode.GDButton_9595textObjects1.length = 0;
 gdjs.HallwayCode.GDButton_9595textObjects2.length = 0;
 gdjs.HallwayCode.GDButton_9595textObjects3.length = 0;
+gdjs.HallwayCode.GDButton_9595textObjects4.length = 0;
 gdjs.HallwayCode.GDNotificationObjects1.length = 0;
 gdjs.HallwayCode.GDNotificationObjects2.length = 0;
 gdjs.HallwayCode.GDNotificationObjects3.length = 0;
+gdjs.HallwayCode.GDNotificationObjects4.length = 0;
 gdjs.HallwayCode.GDClose_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDClose_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDClose_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDClose_9595btnObjects4.length = 0;
 gdjs.HallwayCode.GDHint_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDHint_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDHint_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDHint_9595btnObjects4.length = 0;
 gdjs.HallwayCode.GDNotification_9595HeadObjects1.length = 0;
 gdjs.HallwayCode.GDNotification_9595HeadObjects2.length = 0;
 gdjs.HallwayCode.GDNotification_9595HeadObjects3.length = 0;
+gdjs.HallwayCode.GDNotification_9595HeadObjects4.length = 0;
 gdjs.HallwayCode.GDNotification_9595textObjects1.length = 0;
 gdjs.HallwayCode.GDNotification_9595textObjects2.length = 0;
 gdjs.HallwayCode.GDNotification_9595textObjects3.length = 0;
+gdjs.HallwayCode.GDNotification_9595textObjects4.length = 0;
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDNotification_9595down_9595btnObjects4.length = 0;
 gdjs.HallwayCode.GDBottomfadeObjects1.length = 0;
 gdjs.HallwayCode.GDBottomfadeObjects2.length = 0;
 gdjs.HallwayCode.GDBottomfadeObjects3.length = 0;
+gdjs.HallwayCode.GDBottomfadeObjects4.length = 0;
 gdjs.HallwayCode.GDSafeareaObjects1.length = 0;
 gdjs.HallwayCode.GDSafeareaObjects2.length = 0;
 gdjs.HallwayCode.GDSafeareaObjects3.length = 0;
+gdjs.HallwayCode.GDSafeareaObjects4.length = 0;
 gdjs.HallwayCode.GDDarkenObjects1.length = 0;
 gdjs.HallwayCode.GDDarkenObjects2.length = 0;
 gdjs.HallwayCode.GDDarkenObjects3.length = 0;
+gdjs.HallwayCode.GDDarkenObjects4.length = 0;
 gdjs.HallwayCode.GDMaskObjects1.length = 0;
 gdjs.HallwayCode.GDMaskObjects2.length = 0;
 gdjs.HallwayCode.GDMaskObjects3.length = 0;
+gdjs.HallwayCode.GDMaskObjects4.length = 0;
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDNotification_9595close_9595btnObjects4.length = 0;
 
-gdjs.HallwayCode.eventsList11(runtimeScene);
+gdjs.HallwayCode.eventsList10(runtimeScene);
 gdjs.HallwayCode.GDBackgroundObjects1.length = 0;
 gdjs.HallwayCode.GDBackgroundObjects2.length = 0;
 gdjs.HallwayCode.GDBackgroundObjects3.length = 0;
+gdjs.HallwayCode.GDBackgroundObjects4.length = 0;
 gdjs.HallwayCode.GDClick_9595PackageObjects1.length = 0;
 gdjs.HallwayCode.GDClick_9595PackageObjects2.length = 0;
 gdjs.HallwayCode.GDClick_9595PackageObjects3.length = 0;
+gdjs.HallwayCode.GDClick_9595PackageObjects4.length = 0;
 gdjs.HallwayCode.GDAction_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDAction_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDAction_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDAction_9595btnObjects4.length = 0;
 gdjs.HallwayCode.GDButton_9595textObjects1.length = 0;
 gdjs.HallwayCode.GDButton_9595textObjects2.length = 0;
 gdjs.HallwayCode.GDButton_9595textObjects3.length = 0;
+gdjs.HallwayCode.GDButton_9595textObjects4.length = 0;
 gdjs.HallwayCode.GDNotificationObjects1.length = 0;
 gdjs.HallwayCode.GDNotificationObjects2.length = 0;
 gdjs.HallwayCode.GDNotificationObjects3.length = 0;
+gdjs.HallwayCode.GDNotificationObjects4.length = 0;
 gdjs.HallwayCode.GDClose_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDClose_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDClose_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDClose_9595btnObjects4.length = 0;
 gdjs.HallwayCode.GDHint_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDHint_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDHint_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDHint_9595btnObjects4.length = 0;
 gdjs.HallwayCode.GDNotification_9595HeadObjects1.length = 0;
 gdjs.HallwayCode.GDNotification_9595HeadObjects2.length = 0;
 gdjs.HallwayCode.GDNotification_9595HeadObjects3.length = 0;
+gdjs.HallwayCode.GDNotification_9595HeadObjects4.length = 0;
 gdjs.HallwayCode.GDNotification_9595textObjects1.length = 0;
 gdjs.HallwayCode.GDNotification_9595textObjects2.length = 0;
 gdjs.HallwayCode.GDNotification_9595textObjects3.length = 0;
+gdjs.HallwayCode.GDNotification_9595textObjects4.length = 0;
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDNotification_9595down_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDNotification_9595down_9595btnObjects4.length = 0;
 gdjs.HallwayCode.GDBottomfadeObjects1.length = 0;
 gdjs.HallwayCode.GDBottomfadeObjects2.length = 0;
 gdjs.HallwayCode.GDBottomfadeObjects3.length = 0;
+gdjs.HallwayCode.GDBottomfadeObjects4.length = 0;
 gdjs.HallwayCode.GDSafeareaObjects1.length = 0;
 gdjs.HallwayCode.GDSafeareaObjects2.length = 0;
 gdjs.HallwayCode.GDSafeareaObjects3.length = 0;
+gdjs.HallwayCode.GDSafeareaObjects4.length = 0;
 gdjs.HallwayCode.GDDarkenObjects1.length = 0;
 gdjs.HallwayCode.GDDarkenObjects2.length = 0;
 gdjs.HallwayCode.GDDarkenObjects3.length = 0;
+gdjs.HallwayCode.GDDarkenObjects4.length = 0;
 gdjs.HallwayCode.GDMaskObjects1.length = 0;
 gdjs.HallwayCode.GDMaskObjects2.length = 0;
 gdjs.HallwayCode.GDMaskObjects3.length = 0;
+gdjs.HallwayCode.GDMaskObjects4.length = 0;
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects1.length = 0;
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects2.length = 0;
 gdjs.HallwayCode.GDNotification_9595close_9595btnObjects3.length = 0;
+gdjs.HallwayCode.GDNotification_9595close_9595btnObjects4.length = 0;
 
 
 return;
