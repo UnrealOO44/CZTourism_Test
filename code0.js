@@ -1067,7 +1067,7 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "freesound_community-park-6026.mp3", 0, true, runtimeScene.getGame().getVariables().getFromIndex(13).getAsNumber(), 1);
 }
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "mixkit-rain-in-the-jungle-and-birds-2431.wav", 1, true, 20, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Rain_Loop.mp3", 1, true, 20, 1);
 }
 }
 
