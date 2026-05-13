@@ -2153,7 +2153,7 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Orloj_95PuzzleCode.localVariables);
 /* Don't save Book_close_btn as it will be provided by the parent asyncObjectsList. */
-for (const obj of gdjs.Orloj_95PuzzleCode.GDPuzzleInputObjects3) asyncObjectsList.addObject("PuzzleInput", obj);
+/* Don't save PuzzleInput as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Orloj_95PuzzleCode.GDPuzzle_9595TextObjects3) asyncObjectsList.addObject("Puzzle_Text", obj);
 /* Don't save Submit_btn as it will be provided by the parent asyncObjectsList. */
 /* Don't save Submit_text as it will be provided by the parent asyncObjectsList. */
@@ -2167,16 +2167,10 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 };gdjs.Orloj_95PuzzleCode.asyncCallback26667172 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Orloj_95PuzzleCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("PuzzleInput"), gdjs.Orloj_95PuzzleCode.GDPuzzleInputObjects3);
-
 gdjs.copyArray(asyncObjectsList.getObjects("Puzzle_Text"), gdjs.Orloj_95PuzzleCode.GDPuzzle_9595TextObjects3);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Wordpuzzle"), gdjs.Orloj_95PuzzleCode.GDWordpuzzleObjects3);
 
-{for(var i = 0, len = gdjs.Orloj_95PuzzleCode.GDPuzzleInputObjects3.length ;i < len;++i) {
-    gdjs.Orloj_95PuzzleCode.GDPuzzleInputObjects3[i].setDisabled(false);
-}
-}
 {for(var i = 0, len = gdjs.Orloj_95PuzzleCode.GDPuzzle_9595TextObjects3.length ;i < len;++i) {
     gdjs.Orloj_95PuzzleCode.GDPuzzle_9595TextObjects3[i].getBehavior("Animation").setAnimationName("Bastion");
 }
@@ -2232,6 +2226,10 @@ gdjs.copyArray(runtimeScene.getObjects("Wordpuzzle"), gdjs.Orloj_95PuzzleCode.GD
     gdjs.Orloj_95PuzzleCode.GDMenu_9595btnObjects2[i].hide(false);
 }
 }
+{for(var i = 0, len = gdjs.Orloj_95PuzzleCode.GDPuzzleInputObjects2.length ;i < len;++i) {
+    gdjs.Orloj_95PuzzleCode.GDPuzzleInputObjects2[i].setPlaceholder("Input");
+}
+}
 {for(var i = 0, len = gdjs.Orloj_95PuzzleCode.GDWordpuzzleObjects2.length ;i < len;++i) {
     gdjs.Orloj_95PuzzleCode.GDWordpuzzleObjects2[i].getBehavior("Opacity").setOpacity(0);
 }
@@ -2253,10 +2251,6 @@ for(var i = 0, len = gdjs.Orloj_95PuzzleCode.GDPuzzle_9595TextObjects2.length ;i
 }
 {for(var i = 0, len = gdjs.Orloj_95PuzzleCode.GDFadeoutObjects2.length ;i < len;++i) {
     gdjs.Orloj_95PuzzleCode.GDFadeoutObjects2[i].getBehavior("Tween").addObjectOpacityTween2("", 0, "linear", 1.5, true);
-}
-}
-{for(var i = 0, len = gdjs.Orloj_95PuzzleCode.GDPuzzleInputObjects2.length ;i < len;++i) {
-    gdjs.Orloj_95PuzzleCode.GDPuzzleInputObjects2[i].setDisabled(true);
 }
 }
 

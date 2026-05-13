@@ -2032,8 +2032,6 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Crucifix_95Bas
     gdjs.Crucifix_95BastionCode.GDMenu_9595btnObjects2[i].hide(false);
 }
 }
-{gdjs.VariablesContainer.badVariable.setBoolean(false);
-}
 {for(var i = 0, len = gdjs.Crucifix_95BastionCode.GDHint_9595btnObjects2.length ;i < len;++i) {
     gdjs.Crucifix_95BastionCode.GDHint_9595btnObjects2[i].returnVariable(gdjs.Crucifix_95BastionCode.GDHint_9595btnObjects2[i].getVariables().getFromIndex(1)).setNumber(1);
 }
@@ -2109,7 +2107,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Crucifix_95BastionCode.loc
 gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Crucifix_95BastionCode.GDAction_9595btn_959511Objects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Crucifix_95BastionCode.GDNotificationObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Crucifix_95BastionCode.GDNotification_9595textObjects2);
-{gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 0, 0.05);
+{gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 60, 0.05);
 }
 {for(var i = 0, len = gdjs.Crucifix_95BastionCode.GDNotificationObjects2.length ;i < len;++i) {
     gdjs.Crucifix_95BastionCode.GDNotificationObjects2[i].getBehavior("Tween").addObjectPositionYTween2("", 890 - (( gdjs.Crucifix_95BastionCode.GDNotification_9595textObjects2.length === 0 ) ? 0 :gdjs.Crucifix_95BastionCode.GDNotification_9595textObjects2[0].getHeight()) - 50 - (( gdjs.Crucifix_95BastionCode.GDAction_9595btn_959511Objects2.length === 0 ) ? 0 :gdjs.Crucifix_95BastionCode.GDAction_9595btn_959511Objects2[0].getHeight()) - 30, "easeInOutQuad", 1, false);
@@ -3481,7 +3479,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 };gdjs.Crucifix_95BastionCode.asyncCallback26772100 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Crucifix_95BastionCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Crucifix_95BastionCode.GDNotificationObjects2);
-{gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 0, 0.05);
+{gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 60, 0.05);
 }
 {for(var i = 0, len = gdjs.Crucifix_95BastionCode.GDNotificationObjects2.length ;i < len;++i) {
     gdjs.Crucifix_95BastionCode.GDNotificationObjects2[i].getBehavior("Tween").addObjectPositionYTween2("", 1100, "easeInOutQuad", 1, false);
@@ -3539,7 +3537,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 };gdjs.Crucifix_95BastionCode.asyncCallback26766476 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Crucifix_95BastionCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Crucifix_95BastionCode.GDNotificationObjects2);
-{gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 0, 0.05);
+{gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 60, 0.05);
 }
 {for(var i = 0, len = gdjs.Crucifix_95BastionCode.GDNotificationObjects2.length ;i < len;++i) {
     gdjs.Crucifix_95BastionCode.GDNotificationObjects2[i].getBehavior("Tween").addObjectPositionYTween2("", 1100, "easeInOutQuad", 1, false);

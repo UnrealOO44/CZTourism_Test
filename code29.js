@@ -2042,6 +2042,8 @@ gdjs.copyArray(runtimeScene.getObjects("Puzzle_Text"), gdjs.Orloj_95Crowded_952C
 gdjs.copyArray(runtimeScene.getObjects("Submit_btn"), gdjs.Orloj_95Crowded_952Code.GDSubmit_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Submit_text"), gdjs.Orloj_95Crowded_952Code.GDSubmit_9595textObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Wordpuzzle"), gdjs.Orloj_95Crowded_952Code.GDWordpuzzleObjects2);
+{runtimeScene.getGame().getVariables().getFromIndex(9).setString("Not much here.");
+}
 {for(var i = 0, len = gdjs.Orloj_95Crowded_952Code.GDWordpuzzleObjects2.length ;i < len;++i) {
     gdjs.Orloj_95Crowded_952Code.GDWordpuzzleObjects2[i].getBehavior("Opacity").setOpacity(0);
 }

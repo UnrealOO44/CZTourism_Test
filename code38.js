@@ -2113,9 +2113,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 };gdjs.Gessner_95KeypadCode.asyncCallback26934796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Gessner_95KeypadCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Gessner_95KeypadCode.GDHint_9595btnObjects5);
-{gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 0, 0.05);
-}
-{gdjs.VariablesContainer.badVariable.setBoolean(false);
+{gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 60, 0.05);
 }
 {for(var i = 0, len = gdjs.Gessner_95KeypadCode.GDHint_9595btnObjects5.length ;i < len;++i) {
     gdjs.Gessner_95KeypadCode.GDHint_9595btnObjects5[i].returnVariable(gdjs.Gessner_95KeypadCode.GDHint_9595btnObjects5[i].getVariables().getFromIndex(0)).setNumber(1);
@@ -2189,10 +2187,6 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Gessner_95Keypa
 gdjs.copyArray(runtimeScene.getObjects("Notification_Head"), gdjs.Gessner_95KeypadCode.GDNotification_9595HeadObjects3);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Gessner_95KeypadCode.GDNotification_9595down_9595btnObjects3);
 gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Gessner_95KeypadCode.GDNotification_9595textObjects3);
-{gdjs.VariablesContainer.badVariable.setBoolean(false);
-}
-{gdjs.VariablesContainer.badVariable.setBoolean(true);
-}
 {runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(1);
 }
 {for(var i = 0, len = gdjs.Gessner_95KeypadCode.GDNotificationObjects3.length ;i < len;++i) {

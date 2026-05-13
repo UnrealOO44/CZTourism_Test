@@ -2049,6 +2049,8 @@ gdjs.copyArray(runtimeScene.getObjects("Mask"), gdjs.Orloj_95CrowdedCode.GDMaskO
     gdjs.Orloj_95CrowdedCode.GDMaskObjects4[i].getBehavior("Resizable").setHeight((( gdjs.Orloj_95CrowdedCode.GDButton_9595text_959511Objects4.length === 0 ) ? (( gdjs.Orloj_95CrowdedCode.GDAction_9595btn_959511Objects4.length === 0 ) ? 0 :gdjs.Orloj_95CrowdedCode.GDAction_9595btn_959511Objects4[0].getY()) :gdjs.Orloj_95CrowdedCode.GDButton_9595text_959511Objects4[0].getY()) - (gdjs.Orloj_95CrowdedCode.GDMaskObjects4[i].getPointY("")) - 70);
 }
 }
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Orloj_Clock_Video");
+}
 gdjs.Orloj_95CrowdedCode.localVariables.length = 0;
 }
 gdjs.Orloj_95CrowdedCode.idToCallbackMap.set(26358076, gdjs.Orloj_95CrowdedCode.asyncCallback26358076);
@@ -2162,6 +2164,8 @@ for(var i = 0, len = gdjs.Orloj_95CrowdedCode.GDPuzzle_9595TextObjects2.length ;
 {for(var i = 0, len = gdjs.Orloj_95CrowdedCode.GDNoCrowdObjects2.length ;i < len;++i) {
     gdjs.Orloj_95CrowdedCode.GDNoCrowdObjects2[i].getBehavior("Tween").addObjectOpacityTween2("", 0, "linear", 1.5, true);
 }
+}
+{runtimeScene.getGame().getVariables().getFromIndex(9).setString("Not much here.");
 }
 
 { //Subevents

@@ -2085,14 +2085,6 @@ gdjs.copyArray(runtimeScene.getObjects("PuzzleInput"), gdjs.Charles_95BridgeCode
     gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2[i].setPlaceholder("Input");
 }
 }
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2[i].getBehavior("Text").setText("");
-}
-}
-{for(var i = 0, len = gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2.length ;i < len;++i) {
-    gdjs.Charles_95BridgeCode.GDPuzzleInputObjects2[i].setDisabled(true);
-}
-}
 gdjs.Charles_95BridgeCode.localVariables.length = 0;
 }
 gdjs.Charles_95BridgeCode.idToCallbackMap.set(26074012, gdjs.Charles_95BridgeCode.asyncCallback26074012);

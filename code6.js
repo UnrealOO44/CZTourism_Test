@@ -2052,6 +2052,8 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apartment_95DeskCode.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 60, 0.05);
 }
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Flight");
+}
 gdjs.Apartment_95DeskCode.localVariables.length = 0;
 }
 gdjs.Apartment_95DeskCode.idToCallbackMap.set(25401156, gdjs.Apartment_95DeskCode.asyncCallback25401156);

@@ -2028,6 +2028,10 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.HelpCode.localVariables);
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Rain_Loop.mp3", 2, true, 15, 1);
 }
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Menu");
+}
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Exit");
+}
 gdjs.HelpCode.localVariables.length = 0;
 }
 gdjs.HelpCode.idToCallbackMap.set(25225308, gdjs.HelpCode.asyncCallback25225308);

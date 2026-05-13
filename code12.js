@@ -4595,7 +4595,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Hotel_952Code.GDNot
 {gdjs.evtTools.sound.playSound(runtimeScene, "mixkit-hard-typewriter-click-1119.wav", false, 40, 1);
 }
 {for(var i = 0, len = gdjs.Hotel_952Code.GDNotificationObjects1.length ;i < len;++i) {
-    gdjs.Hotel_952Code.GDNotificationObjects1[i].getBehavior("Tween").addObjectPositionYTween2("", 1092, "easeInOutQuad", 1, false);
+    gdjs.Hotel_952Code.GDNotificationObjects1[i].getBehavior("Tween").addObjectPositionYTween2("", 1100, "easeInOutQuad", 1, false);
 }
 }
 
