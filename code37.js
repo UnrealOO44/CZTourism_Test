@@ -4260,7 +4260,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("PuzzleInput"), gdjs.GessnerCode.GDPu
 elseEventsChainSatisfied = false;
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (gdjs.evtTools.string.toUpperCase((( gdjs.GessnerCode.GDPuzzleInputObjects3.length === 0 ) ? "" :gdjs.GessnerCode.GDPuzzleInputObjects3[0].getBehavior("Text").getText())) == "KAFKA MONUEMENT");
+{isConditionTrue_0 = (gdjs.evtTools.string.toUpperCase((( gdjs.GessnerCode.GDPuzzleInputObjects3.length === 0 ) ? "" :gdjs.GessnerCode.GDPuzzleInputObjects3[0].getBehavior("Text").getText())) == "KAFKA MONUMENT");
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Button_text_11"), gdjs.GessnerCode.GDButton_9595text_959511Objects3);

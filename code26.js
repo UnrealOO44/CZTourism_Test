@@ -2023,7 +2023,6 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 };gdjs.Orloj_95ClockCode.asyncCallback26041372 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Orloj_95ClockCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Book_close_btn"), gdjs.Orloj_95ClockCode.GDBook_9595close_9595btnObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Orloj_95ClockCode.GDHint_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Orloj_95ClockCode.GDMenu_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("PuzzleInput"), gdjs.Orloj_95ClockCode.GDPuzzleInputObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Puzzle_Text"), gdjs.Orloj_95ClockCode.GDPuzzle_9595TextObjects2);
@@ -2051,10 +2050,6 @@ for(var i = 0, len = gdjs.Orloj_95ClockCode.GDPuzzle_9595TextObjects2.length ;i 
 }
 {for(var i = 0, len = gdjs.Orloj_95ClockCode.GDMenu_9595btnObjects2.length ;i < len;++i) {
     gdjs.Orloj_95ClockCode.GDMenu_9595btnObjects2[i].hide(false);
-}
-}
-{for(var i = 0, len = gdjs.Orloj_95ClockCode.GDHint_9595btnObjects2.length ;i < len;++i) {
-    gdjs.Orloj_95ClockCode.GDHint_9595btnObjects2[i].returnVariable(gdjs.Orloj_95ClockCode.GDHint_9595btnObjects2[i].getVariables().getFromIndex(1)).setNumber(1);
 }
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 60, 0.05);
@@ -4593,6 +4588,21 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.Orloj_95ClockCode.GDDarke
 
 { //Subevents
 gdjs.Orloj_95ClockCode.eventsList26(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Orloj_95ClockCode.GDHint_9595btnObjects1);
+{for(var i = 0, len = gdjs.Orloj_95ClockCode.GDHint_9595btnObjects1.length ;i < len;++i) {
+    gdjs.Orloj_95ClockCode.GDHint_9595btnObjects1[i].returnVariable(gdjs.Orloj_95ClockCode.GDHint_9595btnObjects1[i].getVariables().getFromIndex(1)).setNumber(1);
+}
+}
 }
 
 }
