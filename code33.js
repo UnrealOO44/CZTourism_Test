@@ -340,6 +340,8 @@ if (isConditionTrue_0) {
     gdjs.Orloj_95PuzzleCode.GDHint_9595btnObjects2[i].getBehavior("Animation").setAnimationName("d");
 }
 }
+{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
 }
 
 }

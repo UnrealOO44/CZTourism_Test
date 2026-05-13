@@ -291,6 +291,8 @@ if (isConditionTrue_0) {
     gdjs.Old_95Jewish_95Cemetery_952Code.GDHint_9595btnObjects2[i].getBehavior("Animation").setAnimationName("d");
 }
 }
+{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
 }
 
 }

@@ -283,6 +283,8 @@ if (isConditionTrue_0) {
     gdjs.Crucifix_95Bastion_95CompletedCode.GDHint_9595btnObjects2[i].getBehavior("Animation").setAnimationName("d");
 }
 }
+{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
 }
 
 }

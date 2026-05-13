@@ -338,6 +338,8 @@ if (isConditionTrue_0) {
     gdjs.Hotel_952Code.GDHint_9595btnObjects2[i].getBehavior("Animation").setAnimationName("d");
 }
 }
+{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
 }
 
 }
