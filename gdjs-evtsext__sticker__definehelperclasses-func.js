@@ -9,7 +9,7 @@ gdjs.evtsExt__Sticker__DefineHelperClasses = {};
 gdjs.evtsExt__Sticker__DefineHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0xa4c860 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0x1376cb8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs._stickerExtension) {
     return;
@@ -267,7 +267,7 @@ gdjs.evtsExt__Sticker__DefineHelperClasses.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0xa4c860(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Sticker__DefineHelperClasses.userFunc0x1376cb8(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -303,7 +303,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }
