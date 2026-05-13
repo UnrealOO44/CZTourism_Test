@@ -693,7 +693,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDHint_9595btnObjects2.length;i
 gdjs.Hotel_95ViewCode.GDHint_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27595420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27592180);
 }
 }
 }
@@ -731,7 +731,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotification_9595close_9595bt
 gdjs.Hotel_95ViewCode.GDNotification_9595close_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27596580);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27593340);
 }
 }
 }
@@ -777,7 +777,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDSubmit_9595btnObjects2.length
 gdjs.Hotel_95ViewCode.GDSubmit_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27598276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27595036);
 }
 }
 }
@@ -824,7 +824,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btn
 gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27599404);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27596164);
 }
 }
 }
@@ -851,7 +851,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDMenu_95959595btnObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27601308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27598068);
 }
 }
 if (isConditionTrue_0) {
@@ -876,7 +876,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDClose_95959595btnObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27602268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27599028);
 }
 }
 if (isConditionTrue_0) {
@@ -901,7 +901,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDPhoto_95959595close_95959595btnObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27602660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27599420);
 }
 }
 if (isConditionTrue_0) {
@@ -926,7 +926,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDPhoto_95959595left_95959595btnObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27603940);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27600700);
 }
 }
 if (isConditionTrue_0) {
@@ -951,7 +951,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDPhoto_95959595right_95959595btnObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27605140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27601900);
 }
 }
 if (isConditionTrue_0) {
@@ -996,7 +996,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDBook_9595close_9595btnObjects
 gdjs.Hotel_95ViewCode.GDBook_9595close_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27607508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27604268);
 }
 }
 }
@@ -1023,7 +1023,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDBook_95959595left_95959595btnObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27608916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27605676);
 }
 }
 if (isConditionTrue_0) {
@@ -1048,7 +1048,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDBook_95959595right_95959595btnObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27610068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27606828);
 }
 }
 if (isConditionTrue_0) {
@@ -1093,7 +1093,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDSynagogueObjects2.length;i<l;
 gdjs.Hotel_95ViewCode.GDSynagogueObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27611292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27608052);
 }
 }
 }
@@ -1140,7 +1140,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDCemeteryObjects2.length;i<l;+
 gdjs.Hotel_95ViewCode.GDCemeteryObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27613324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27610084);
 }
 }
 }
@@ -1187,7 +1187,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDCharlesBridgeObjects2.length;
 gdjs.Hotel_95ViewCode.GDCharlesBridgeObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27614612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27611372);
 }
 }
 }
@@ -1234,7 +1234,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDCrucifixBastionObjects2.lengt
 gdjs.Hotel_95ViewCode.GDCrucifixBastionObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27616460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27613220);
 }
 }
 }
@@ -1281,7 +1281,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDKafkaMonumentObjects2.length;
 gdjs.Hotel_95ViewCode.GDKafkaMonumentObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27617756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27614516);
 }
 }
 }
@@ -1328,7 +1328,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDTownSquareObjects2.length;i<l
 gdjs.Hotel_95ViewCode.GDTownSquareObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27619172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27615932);
 }
 }
 }
@@ -1355,7 +1355,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDConitnue_95959595btnObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27619652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27616412);
 }
 }
 if (isConditionTrue_0) {
@@ -1380,7 +1380,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDReturn_95959595btnObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27621284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27618044);
 }
 }
 if (isConditionTrue_0) {
@@ -1397,7 +1397,7 @@ if (isConditionTrue_0) {
 
 
 };gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDMenu_95959595btnObjects1Objects = Hashtable.newFrom({"Menu_btn": gdjs.Hotel_95ViewCode.GDMenu_9595btnObjects1});
-gdjs.Hotel_95ViewCode.asyncCallback27628796 = function (runtimeScene, asyncObjectsList) {
+gdjs.Hotel_95ViewCode.asyncCallback27625556 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(3).setString(gdjs.evtTools.runtimeScene.getSceneName(runtimeScene));
 }
@@ -1405,7 +1405,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVari
 }
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27628796, gdjs.Hotel_95ViewCode.asyncCallback27628796);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27625556, gdjs.Hotel_95ViewCode.asyncCallback27625556);
 gdjs.Hotel_95ViewCode.eventsList1 = function(runtimeScene) {
 
 {
@@ -1415,7 +1415,7 @@ gdjs.Hotel_95ViewCode.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27628796(runtimeScene, asyncObjectsList)), 27628796, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27625556(runtimeScene, asyncObjectsList)), 27625556, asyncObjectsList);
 }
 }
 
@@ -1436,7 +1436,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDAction_95959595btn_9595959511Objects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27630772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27627532);
 }
 }
 if (isConditionTrue_0) {
@@ -1484,7 +1484,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDAction_95959595btn_9595959521Objects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27633044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27629804);
 }
 }
 if (isConditionTrue_0) {
@@ -1532,7 +1532,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDAction_95959595btn_9595959522Objects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27636044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27632804);
 }
 }
 if (isConditionTrue_0) {
@@ -1580,7 +1580,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDAction_95959595btn_9595959531Objects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27638612);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27635372);
 }
 }
 if (isConditionTrue_0) {
@@ -1628,7 +1628,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDAction_95959595btn_9595959532Objects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27641180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27637940);
 }
 }
 if (isConditionTrue_0) {
@@ -1676,7 +1676,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDAction_95959595btn_9595959533Objects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27643748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27640508);
 }
 }
 if (isConditionTrue_0) {
@@ -1988,7 +1988,7 @@ elseEventsChainSatisfied = true;
 
 }
 
-};gdjs.Hotel_95ViewCode.asyncCallback27654060 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback27650820 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Hotel_95ViewCode.GDDarkenObjects2);
 
@@ -2006,7 +2006,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.Hotel_95ViewCode.GDDa
 }
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27654060, gdjs.Hotel_95ViewCode.asyncCallback27654060);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27650820, gdjs.Hotel_95ViewCode.asyncCallback27650820);
 gdjs.Hotel_95ViewCode.eventsList10 = function(runtimeScene) {
 
 {
@@ -2017,14 +2017,14 @@ gdjs.Hotel_95ViewCode.eventsList10 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 for (const obj of gdjs.Hotel_95ViewCode.GDDarkenObjects1) asyncObjectsList.addObject("Darken", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27654060(runtimeScene, asyncObjectsList)), 27654060, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27650820(runtimeScene, asyncObjectsList)), 27650820, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback25363556 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback25359444 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Hotel_95ViewCode.GDMenu_9595btnObjects2);
 {for(var i = 0, len = gdjs.Hotel_95ViewCode.GDMenu_9595btnObjects2.length ;i < len;++i) {
@@ -2033,7 +2033,7 @@ gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Hotel_95ViewCode.GDMenu
 }
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(25363556, gdjs.Hotel_95ViewCode.asyncCallback25363556);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(25359444, gdjs.Hotel_95ViewCode.asyncCallback25359444);
 gdjs.Hotel_95ViewCode.eventsList11 = function(runtimeScene) {
 
 {
@@ -2043,14 +2043,14 @@ gdjs.Hotel_95ViewCode.eventsList11 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25363556(runtimeScene, asyncObjectsList)), 25363556, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25359444(runtimeScene, asyncObjectsList)), 25359444, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback25369820 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback25365708 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects4);
 {for(var i = 0, len = gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects4.length ;i < len;++i) {
@@ -2059,7 +2059,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Hotel_95Vi
 }
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(25369820, gdjs.Hotel_95ViewCode.asyncCallback25369820);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(25365708, gdjs.Hotel_95ViewCode.asyncCallback25365708);
 gdjs.Hotel_95ViewCode.eventsList12 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -2070,14 +2070,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25369820(runtimeScene, asyncObjectsList)), 25369820, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25365708(runtimeScene, asyncObjectsList)), 25365708, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback25368084 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback25363972 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Action_btn_11"), gdjs.Hotel_95ViewCode.GDAction_9595btn_959511Objects3);
 
@@ -2094,7 +2094,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification_text"), gdjs.Hotel_95Vi
 gdjs.Hotel_95ViewCode.eventsList12(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(25368084, gdjs.Hotel_95ViewCode.asyncCallback25368084);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(25363972, gdjs.Hotel_95ViewCode.asyncCallback25363972);
 gdjs.Hotel_95ViewCode.eventsList13 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -2108,14 +2108,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVaria
 for (const obj of gdjs.Hotel_95ViewCode.GDAction_9595btn_959511Objects2) asyncObjectsList.addObject("Action_btn_11", obj);
 /* Don't save Notification as it will be provided by the parent asyncObjectsList. */
 for (const obj of gdjs.Hotel_95ViewCode.GDNotification_9595textObjects2) asyncObjectsList.addObject("Notification_text", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25368084(runtimeScene, asyncObjectsList)), 25368084, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25363972(runtimeScene, asyncObjectsList)), 25363972, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback25365004 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback25360892 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.Hotel_95ViewCode.GDAction_9595btn_959511Objects2);
 gdjs.copyArray(runtimeScene.getObjects("Button_text_11"), gdjs.Hotel_95ViewCode.GDButton_9595text_959511Objects2);
@@ -2152,7 +2152,7 @@ for(var i = 0, len = gdjs.Hotel_95ViewCode.GDButton_9595text_959511Objects2.leng
 gdjs.Hotel_95ViewCode.eventsList13(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(25365004, gdjs.Hotel_95ViewCode.asyncCallback25365004);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(25360892, gdjs.Hotel_95ViewCode.asyncCallback25360892);
 gdjs.Hotel_95ViewCode.eventsList14 = function(runtimeScene) {
 
 {
@@ -2163,7 +2163,7 @@ gdjs.Hotel_95ViewCode.eventsList14 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 for (const obj of gdjs.Hotel_95ViewCode.GDNotificationObjects1) asyncObjectsList.addObject("Notification", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25365004(runtimeScene, asyncObjectsList)), 25365004, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25360892(runtimeScene, asyncObjectsList)), 25360892, asyncObjectsList);
 }
 }
 
@@ -2210,7 +2210,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27541308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27538068);
 }
 }
 }
@@ -2318,7 +2318,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27543116);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27539876);
 }
 }
 }
@@ -2426,7 +2426,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27544948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27541708);
 }
 }
 }
@@ -2534,7 +2534,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27546764);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27543524);
 }
 }
 }
@@ -2638,7 +2638,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27547412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27544172);
 }
 }
 if (isConditionTrue_0) {
@@ -2757,7 +2757,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotificationObjects2.length;i
 gdjs.Hotel_95ViewCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27550012);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27546772);
 }
 }
 if (isConditionTrue_0) {
@@ -2805,7 +2805,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotificationObjects2.length;i
 gdjs.Hotel_95ViewCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27551996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27548756);
 }
 }
 if (isConditionTrue_0) {
@@ -2853,7 +2853,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotificationObjects1.length;i
 gdjs.Hotel_95ViewCode.GDNotificationObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27554196);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27550956);
 }
 }
 if (isConditionTrue_0) {
@@ -2887,7 +2887,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification_text"), gdjs.Hotel_95ViewCo
 
 };gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDNotification_95959595down_95959595btnObjects2Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects2});
 gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDNotificationObjects4Objects = Hashtable.newFrom({"Notification": gdjs.Hotel_95ViewCode.GDNotificationObjects4});
-gdjs.Hotel_95ViewCode.asyncCallback27560036 = function (runtimeScene, asyncObjectsList) {
+gdjs.Hotel_95ViewCode.asyncCallback27556796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Mask"), gdjs.Hotel_95ViewCode.GDMaskObjects4);
 
@@ -2901,7 +2901,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Hotel_95ViewCod
 }
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27560036, gdjs.Hotel_95ViewCode.asyncCallback27560036);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27556796, gdjs.Hotel_95ViewCode.asyncCallback27556796);
 gdjs.Hotel_95ViewCode.eventsList17 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -2914,14 +2914,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 /* Don't save Mask as it will be provided by the parent asyncObjectsList. */
 /* Don't save Notification as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27560036(runtimeScene, asyncObjectsList)), 27560036, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27556796(runtimeScene, asyncObjectsList)), 27556796, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback27558844 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback27555604 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects3);
 
@@ -2934,7 +2934,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Hotel_
 gdjs.Hotel_95ViewCode.eventsList17(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27558844, gdjs.Hotel_95ViewCode.asyncCallback27558844);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27555604, gdjs.Hotel_95ViewCode.asyncCallback27555604);
 gdjs.Hotel_95ViewCode.eventsList18 = function(runtimeScene) {
 
 {
@@ -2947,7 +2947,7 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVaria
 for (const obj of gdjs.Hotel_95ViewCode.GDMaskObjects2) asyncObjectsList.addObject("Mask", obj);
 for (const obj of gdjs.Hotel_95ViewCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
 for (const obj of gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects2) asyncObjectsList.addObject("Notification_down_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27558844(runtimeScene, asyncObjectsList)), 27558844, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27555604(runtimeScene, asyncObjectsList)), 27555604, asyncObjectsList);
 }
 }
 
@@ -2956,7 +2956,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 };gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDNotification_95959595down_95959595btnObjects2Objects = Hashtable.newFrom({"Notification_down_btn": gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects2});
 gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDNotificationObjects4Objects = Hashtable.newFrom({"Notification": gdjs.Hotel_95ViewCode.GDNotificationObjects4});
-gdjs.Hotel_95ViewCode.asyncCallback27564700 = function (runtimeScene, asyncObjectsList) {
+gdjs.Hotel_95ViewCode.asyncCallback27561460 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Mask"), gdjs.Hotel_95ViewCode.GDMaskObjects4);
 
@@ -2970,7 +2970,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Hotel_95ViewCod
 }
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27564700, gdjs.Hotel_95ViewCode.asyncCallback27564700);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27561460, gdjs.Hotel_95ViewCode.asyncCallback27561460);
 gdjs.Hotel_95ViewCode.eventsList19 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -2983,14 +2983,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 /* Don't save Mask as it will be provided by the parent asyncObjectsList. */
 /* Don't save Notification as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27564700(runtimeScene, asyncObjectsList)), 27564700, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27561460(runtimeScene, asyncObjectsList)), 27561460, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback27564236 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback27560996 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects3);
 
@@ -3003,7 +3003,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification_down_btn"), gdjs.Hotel_
 gdjs.Hotel_95ViewCode.eventsList19(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27564236, gdjs.Hotel_95ViewCode.asyncCallback27564236);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27560996, gdjs.Hotel_95ViewCode.asyncCallback27560996);
 gdjs.Hotel_95ViewCode.eventsList20 = function(runtimeScene) {
 
 {
@@ -3016,7 +3016,7 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVaria
 for (const obj of gdjs.Hotel_95ViewCode.GDMaskObjects2) asyncObjectsList.addObject("Mask", obj);
 for (const obj of gdjs.Hotel_95ViewCode.GDNotificationObjects2) asyncObjectsList.addObject("Notification", obj);
 for (const obj of gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects2) asyncObjectsList.addObject("Notification_down_btn", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27564236(runtimeScene, asyncObjectsList)), 27564236, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27560996(runtimeScene, asyncObjectsList)), 27560996, asyncObjectsList);
 }
 }
 
@@ -3024,11 +3024,11 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 
 };gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDNotification_95959595close_95959595btnObjects1Objects = Hashtable.newFrom({"Notification_close_btn": gdjs.Hotel_95ViewCode.GDNotification_9595close_9595btnObjects1});
-gdjs.Hotel_95ViewCode.asyncCallback27570036 = function (runtimeScene, asyncObjectsList) {
+gdjs.Hotel_95ViewCode.asyncCallback27566796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27570036, gdjs.Hotel_95ViewCode.asyncCallback27570036);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27566796, gdjs.Hotel_95ViewCode.asyncCallback27566796);
 gdjs.Hotel_95ViewCode.eventsList21 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3039,14 +3039,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27570036(runtimeScene, asyncObjectsList)), 27570036, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27566796(runtimeScene, asyncObjectsList)), 27566796, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback27569412 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback27566172 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 {gdjs.evtTools.sound.playSound(runtimeScene, "rollover3.wav", false, 60, 0.05);
 }
@@ -3055,7 +3055,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVari
 gdjs.Hotel_95ViewCode.eventsList21(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27569412, gdjs.Hotel_95ViewCode.asyncCallback27569412);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27566172, gdjs.Hotel_95ViewCode.asyncCallback27566172);
 gdjs.Hotel_95ViewCode.eventsList22 = function(runtimeScene) {
 
 {
@@ -3065,7 +3065,7 @@ gdjs.Hotel_95ViewCode.eventsList22 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27569412(runtimeScene, asyncObjectsList)), 27569412, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27566172(runtimeScene, asyncObjectsList)), 27566172, asyncObjectsList);
 }
 }
 
@@ -3100,7 +3100,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotificationObjects2.length;i
 gdjs.Hotel_95ViewCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27556356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27553116);
 }
 }
 }
@@ -3157,7 +3157,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btn
 gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27558060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27554820);
 }
 }
 }
@@ -3218,7 +3218,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotificationObjects2.length;i
 gdjs.Hotel_95ViewCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27561532);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27558292);
 }
 }
 }
@@ -3275,7 +3275,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btn
 gdjs.Hotel_95ViewCode.GDNotification_9595down_9595btnObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27563220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27559980);
 }
 }
 }
@@ -3328,7 +3328,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotificationObjects2.length;i
 gdjs.Hotel_95ViewCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27566508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27563268);
 }
 }
 if (isConditionTrue_0) {
@@ -3370,7 +3370,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotificationObjects2.length;i
 gdjs.Hotel_95ViewCode.GDNotificationObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27567804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27564564);
 }
 }
 if (isConditionTrue_0) {
@@ -3408,7 +3408,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDNotification_9595close_9595bt
 gdjs.Hotel_95ViewCode.GDNotification_9595close_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27569340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27566100);
 }
 }
 }
@@ -3432,11 +3432,11 @@ gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDHint_95959595bt
 gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDSubmit_95959595btnObjects1Objects = Hashtable.newFrom({"Submit_btn": gdjs.Hotel_95ViewCode.GDSubmit_9595btnObjects1});
 gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDPuzzleInputObjects1Objects = Hashtable.newFrom({"PuzzleInput": gdjs.Hotel_95ViewCode.GDPuzzleInputObjects1});
 gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDBook_95959595close_95959595btnObjects1Objects = Hashtable.newFrom({"Book_close_btn": gdjs.Hotel_95ViewCode.GDBook_9595close_9595btnObjects1});
-gdjs.Hotel_95ViewCode.asyncCallback27573876 = function (runtimeScene, asyncObjectsList) {
+gdjs.Hotel_95ViewCode.asyncCallback27570636 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27573876, gdjs.Hotel_95ViewCode.asyncCallback27573876);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27570636, gdjs.Hotel_95ViewCode.asyncCallback27570636);
 gdjs.Hotel_95ViewCode.eventsList24 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -3447,14 +3447,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27573876(runtimeScene, asyncObjectsList)), 27573876, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27570636(runtimeScene, asyncObjectsList)), 27570636, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback27573572 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback27570332 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Hotel_95ViewCode.GDNotificationObjects2);
 
@@ -3469,7 +3469,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Notification"), gdjs.Hotel_95ViewCod
 gdjs.Hotel_95ViewCode.eventsList24(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(27573572, gdjs.Hotel_95ViewCode.asyncCallback27573572);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(27570332, gdjs.Hotel_95ViewCode.asyncCallback27570332);
 gdjs.Hotel_95ViewCode.eventsList25 = function(runtimeScene) {
 
 {
@@ -3480,7 +3480,7 @@ gdjs.Hotel_95ViewCode.eventsList25 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 for (const obj of gdjs.Hotel_95ViewCode.GDNotificationObjects1) asyncObjectsList.addObject("Notification", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27573572(runtimeScene, asyncObjectsList)), 27573572, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback27570332(runtimeScene, asyncObjectsList)), 27570332, asyncObjectsList);
 }
 }
 
@@ -3488,13 +3488,13 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 
 };gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDAction_95959595btn_9595959511Objects1Objects = Hashtable.newFrom({"Action_btn_11": gdjs.Hotel_95ViewCode.GDAction_9595btn_959511Objects1});
-gdjs.Hotel_95ViewCode.asyncCallback25362060 = function (runtimeScene, asyncObjectsList) {
+gdjs.Hotel_95ViewCode.asyncCallback25357948 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
 }
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(25362060, gdjs.Hotel_95ViewCode.asyncCallback25362060);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(25357948, gdjs.Hotel_95ViewCode.asyncCallback25357948);
 gdjs.Hotel_95ViewCode.eventsList26 = function(runtimeScene) {
 
 {
@@ -3504,14 +3504,14 @@ gdjs.Hotel_95ViewCode.eventsList26 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25362060(runtimeScene, asyncObjectsList)), 25362060, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.8), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25357948(runtimeScene, asyncObjectsList)), 25357948, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Hotel_95ViewCode.asyncCallback25366020 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Hotel_95ViewCode.asyncCallback25361908 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Hotel_2", false);
 }
@@ -3519,7 +3519,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVari
 }
 gdjs.Hotel_95ViewCode.localVariables.length = 0;
 }
-gdjs.Hotel_95ViewCode.idToCallbackMap.set(25366020, gdjs.Hotel_95ViewCode.asyncCallback25366020);
+gdjs.Hotel_95ViewCode.idToCallbackMap.set(25361908, gdjs.Hotel_95ViewCode.asyncCallback25361908);
 gdjs.Hotel_95ViewCode.eventsList27 = function(runtimeScene) {
 
 {
@@ -3529,7 +3529,7 @@ gdjs.Hotel_95ViewCode.eventsList27 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Hotel_95ViewCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25366020(runtimeScene, asyncObjectsList)), 25366020, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.Hotel_95ViewCode.asyncCallback25361908(runtimeScene, asyncObjectsList)), 25361908, asyncObjectsList);
 }
 }
 
@@ -3758,7 +3758,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDClose_9595btnObjects1.length;
 gdjs.Hotel_95ViewCode.GDClose_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27626540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27623300);
 }
 }
 if (isConditionTrue_0) {
@@ -3788,7 +3788,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDMenu_9595btnObjects1.length;i
 gdjs.Hotel_95ViewCode.GDMenu_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27627292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27624052);
 }
 }
 if (isConditionTrue_0) {
@@ -3828,7 +3828,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDMenu_9595btnObjects1.length;i
 gdjs.Hotel_95ViewCode.GDMenu_9595btnObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27628340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27625100);
 }
 }
 }
@@ -4008,7 +4008,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27653892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27650652);
 }
 }
 if (isConditionTrue_0) {
@@ -4033,7 +4033,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25361684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25357572);
 }
 }
 if (isConditionTrue_0) {
@@ -4054,7 +4054,7 @@ gdjs.Hotel_95ViewCode.eventsList11(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25364084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25359972);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Hotel_95ViewCode.GDHint_9595btnObjects1);
@@ -4083,7 +4083,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27535964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27532724);
 }
 }
 if (isConditionTrue_0) {
@@ -4230,7 +4230,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Hotel_95ViewCode.mapOfGDgdjs_9546Hotel_959595ViewCode_9546GDBook_95959595close_95959595btnObjects1Objects, runtimeScene, true, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27572316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27569076);
 }
 }
 }
@@ -4336,7 +4336,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDPuzzle_9595TextObjects1.lengt
 gdjs.Hotel_95ViewCode.GDPuzzle_9595TextObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27574820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27571580);
 }
 }
 if (isConditionTrue_0) {
@@ -4418,7 +4418,7 @@ for (var i = 0, k = 0, l = gdjs.Hotel_95ViewCode.GDPuzzle_9595TextObjects1.lengt
 gdjs.Hotel_95ViewCode.GDPuzzle_9595TextObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27576556);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27573316);
 }
 }
 if (isConditionTrue_0) {
@@ -4451,7 +4451,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25358772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25354660);
 }
 }
 }
@@ -4480,7 +4480,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25362804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25358692);
 }
 }
 if (isConditionTrue_0) {
