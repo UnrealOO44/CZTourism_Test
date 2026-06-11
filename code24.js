@@ -4076,6 +4076,8 @@ gdjs.copyArray(runtimeScene.getObjects("Puzzle_Text"), gdjs.NepomukCode.GDPuzzle
 gdjs.copyArray(runtimeScene.getObjects("Submit_btn"), gdjs.NepomukCode.GDSubmit_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Submit_text"), gdjs.NepomukCode.GDSubmit_9595textObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Wordpuzzle"), gdjs.NepomukCode.GDWordpuzzleObjects2);
+{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(1);
+}
 {for(var i = 0, len = gdjs.NepomukCode.GDHint_9595btnObjects2.length ;i < len;++i) {
     gdjs.NepomukCode.GDHint_9595btnObjects2[i].returnVariable(gdjs.NepomukCode.GDHint_9595btnObjects2[i].getVariables().getFromIndex(1)).setNumber(1);
 }
@@ -5240,7 +5242,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.NepomukCode.GDNotif
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.NepomukCode.GDNotificationObjects2.length;i<l;++i) {
-    if ( gdjs.NepomukCode.GDNotificationObjects2[i].getY() > 1090 ) {
+    if ( gdjs.NepomukCode.GDNotificationObjects2[i].getY() > 1080 ) {
         isConditionTrue_0 = true;
         gdjs.NepomukCode.GDNotificationObjects2[k] = gdjs.NepomukCode.GDNotificationObjects2[i];
         ++k;
@@ -5259,6 +5261,8 @@ gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.NepomukCode.GDHint_9595
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.NepomukCode.GDMenu_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.NepomukCode.GDNotification_9595down_9595btnObjects2);
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
+{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
 }
 {for(var i = 0, len = gdjs.NepomukCode.GDHint_9595btnObjects2.length ;i < len;++i) {
     gdjs.NepomukCode.GDHint_9595btnObjects2[i].returnVariable(gdjs.NepomukCode.GDHint_9595btnObjects2[i].getVariables().getFromIndex(1)).setNumber(0);
@@ -6729,10 +6733,15 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28258948);
+}
 }
 }
 }
@@ -6830,11 +6839,6 @@ for (var i = 0, k = 0, l = gdjs.NepomukCode.GDPuzzle_9595TextObjects1.length;i<l
     }
 }
 gdjs.NepomukCode.GDPuzzle_9595TextObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28261468);
-}
-}
 if (isConditionTrue_0) {
 /* Reuse gdjs.NepomukCode.GDPuzzleInputObjects1 */
 {for(var i = 0, len = gdjs.NepomukCode.GDPuzzleInputObjects1.length ;i < len;++i) {
@@ -6934,21 +6938,6 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Clickable");
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
 }
 }
 

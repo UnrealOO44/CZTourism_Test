@@ -5204,7 +5204,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Orloj_95CrowdedCode
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.Orloj_95CrowdedCode.GDNotificationObjects2.length;i<l;++i) {
-    if ( gdjs.Orloj_95CrowdedCode.GDNotificationObjects2[i].getY() > 1090 ) {
+    if ( gdjs.Orloj_95CrowdedCode.GDNotificationObjects2[i].getY() > 1080 ) {
         isConditionTrue_0 = true;
         gdjs.Orloj_95CrowdedCode.GDNotificationObjects2[k] = gdjs.Orloj_95CrowdedCode.GDNotificationObjects2[i];
         ++k;
@@ -5223,6 +5223,8 @@ gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Orloj_95CrowdedCode.GDH
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Orloj_95CrowdedCode.GDMenu_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Orloj_95CrowdedCode.GDNotification_9595down_9595btnObjects2);
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
+{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
 }
 {for(var i = 0, len = gdjs.Orloj_95CrowdedCode.GDHint_9595btnObjects2.length ;i < len;++i) {
     gdjs.Orloj_95CrowdedCode.GDHint_9595btnObjects2[i].returnVariable(gdjs.Orloj_95CrowdedCode.GDHint_9595btnObjects2[i].getVariables().getFromIndex(1)).setNumber(0);
@@ -5660,10 +5662,15 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28258948);
+}
 }
 }
 }
@@ -5761,11 +5768,6 @@ for (var i = 0, k = 0, l = gdjs.Orloj_95CrowdedCode.GDPuzzle_9595TextObjects1.le
     }
 }
 gdjs.Orloj_95CrowdedCode.GDPuzzle_9595TextObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28261468);
-}
-}
 if (isConditionTrue_0) {
 /* Reuse gdjs.Orloj_95CrowdedCode.GDPuzzleInputObjects1 */
 {for(var i = 0, len = gdjs.Orloj_95CrowdedCode.GDPuzzleInputObjects1.length ;i < len;++i) {
@@ -5865,21 +5867,6 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Clickable");
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
 }
 }
 

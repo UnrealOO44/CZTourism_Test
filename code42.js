@@ -5118,7 +5118,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Crucifix_95Bastion_
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.Crucifix_95Bastion_95CompletedCode.GDNotificationObjects2.length;i<l;++i) {
-    if ( gdjs.Crucifix_95Bastion_95CompletedCode.GDNotificationObjects2[i].getY() > 1090 ) {
+    if ( gdjs.Crucifix_95Bastion_95CompletedCode.GDNotificationObjects2[i].getY() > 1080 ) {
         isConditionTrue_0 = true;
         gdjs.Crucifix_95Bastion_95CompletedCode.GDNotificationObjects2[k] = gdjs.Crucifix_95Bastion_95CompletedCode.GDNotificationObjects2[i];
         ++k;
@@ -5137,6 +5137,8 @@ gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Crucifix_95Bastion_95Co
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Crucifix_95Bastion_95CompletedCode.GDMenu_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Crucifix_95Bastion_95CompletedCode.GDNotification_9595down_9595btnObjects2);
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
+{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
 }
 {for(var i = 0, len = gdjs.Crucifix_95Bastion_95CompletedCode.GDHint_9595btnObjects2.length ;i < len;++i) {
     gdjs.Crucifix_95Bastion_95CompletedCode.GDHint_9595btnObjects2[i].returnVariable(gdjs.Crucifix_95Bastion_95CompletedCode.GDHint_9595btnObjects2[i].getVariables().getFromIndex(1)).setNumber(0);
@@ -5550,10 +5552,15 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28258948);
+}
 }
 }
 }
@@ -5651,11 +5658,6 @@ for (var i = 0, k = 0, l = gdjs.Crucifix_95Bastion_95CompletedCode.GDPuzzle_9595
     }
 }
 gdjs.Crucifix_95Bastion_95CompletedCode.GDPuzzle_9595TextObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28261468);
-}
-}
 if (isConditionTrue_0) {
 /* Reuse gdjs.Crucifix_95Bastion_95CompletedCode.GDPuzzleInputObjects1 */
 {for(var i = 0, len = gdjs.Crucifix_95Bastion_95CompletedCode.GDPuzzleInputObjects1.length ;i < len;++i) {
@@ -5755,21 +5757,6 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Clickable");
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
 }
 }
 

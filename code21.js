@@ -189,7 +189,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 
 };gdjs.CB_95StartCode.asyncCallback26363964 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CB_95StartCode.localVariables);
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber(), 2);
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber(), 1);
 }
 gdjs.CB_95StartCode.localVariables.length = 0;
 }
@@ -238,7 +238,7 @@ gdjs.CB_95StartCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CB_95StartCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.CB_95StartCode.asyncCallback26361764(runtimeScene, asyncObjectsList)), 26361764, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.CB_95StartCode.asyncCallback26361764(runtimeScene, asyncObjectsList)), 26361764, asyncObjectsList);
 }
 }
 
@@ -313,6 +313,8 @@ gdjs.copyArray(runtimeScene.getObjects("CB"), gdjs.CB_95StartCode.GDCBObjects1);
 {for(var i = 0, len = gdjs.CB_95StartCode.GDCBObjects1.length ;i < len;++i) {
     gdjs.CB_95StartCode.GDCBObjects1[i].play();
 }
+}
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 0, 1);
 }
 
 { //Subevents

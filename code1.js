@@ -5176,7 +5176,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.HelpCode.GDNotifica
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.HelpCode.GDNotificationObjects2.length;i<l;++i) {
-    if ( gdjs.HelpCode.GDNotificationObjects2[i].getY() > 1090 ) {
+    if ( gdjs.HelpCode.GDNotificationObjects2[i].getY() > 1080 ) {
         isConditionTrue_0 = true;
         gdjs.HelpCode.GDNotificationObjects2[k] = gdjs.HelpCode.GDNotificationObjects2[i];
         ++k;
@@ -5195,6 +5195,8 @@ gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.HelpCode.GDHint_9595btn
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.HelpCode.GDMenu_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.HelpCode.GDNotification_9595down_9595btnObjects2);
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
+{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
 }
 {for(var i = 0, len = gdjs.HelpCode.GDHint_9595btnObjects2.length ;i < len;++i) {
     gdjs.HelpCode.GDHint_9595btnObjects2[i].returnVariable(gdjs.HelpCode.GDHint_9595btnObjects2[i].getVariables().getFromIndex(1)).setNumber(0);
@@ -5335,8 +5337,18 @@ gdjs.HelpCode.asyncCallback25458148 = function (runtimeScene, asyncObjectsList) 
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.HelpCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Action_btn_11"), gdjs.HelpCode.GDAction_9595btn_959511Objects3);
 gdjs.copyArray(runtimeScene.getObjects("Button_text_11"), gdjs.HelpCode.GDButton_9595text_959511Objects3);
+gdjs.copyArray(runtimeScene.getObjects("Click_outside"), gdjs.HelpCode.GDClick_9595outsideObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.HelpCode.GDHint_9595btnObjects3);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.HelpCode.GDNotification_9595down_9595btnObjects3);
 {gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 0, 0, 1);
+}
+{for(var i = 0, len = gdjs.HelpCode.GDHint_9595btnObjects3.length ;i < len;++i) {
+    gdjs.HelpCode.GDHint_9595btnObjects3[i].returnVariable(gdjs.HelpCode.GDHint_9595btnObjects3[i].getVariables().getFromIndex(1)).setNumber(0);
+}
+}
+{for(var i = 0, len = gdjs.HelpCode.GDClick_9595outsideObjects3.length ;i < len;++i) {
+    gdjs.HelpCode.GDClick_9595outsideObjects3[i].returnVariable(gdjs.HelpCode.GDClick_9595outsideObjects3[i].getVariables().getFromIndex(0)).setNumber(1);
+}
 }
 {for(var i = 0, len = gdjs.HelpCode.GDAction_9595btn_959511Objects3.length ;i < len;++i) {
     gdjs.HelpCode.GDAction_9595btn_959511Objects3[i].returnVariable(gdjs.HelpCode.GDAction_9595btn_959511Objects3[i].getVariables().get("Active")).setNumber(1);
@@ -5729,10 +5741,15 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28258948);
+}
 }
 }
 }
@@ -5830,11 +5847,6 @@ for (var i = 0, k = 0, l = gdjs.HelpCode.GDPuzzle_9595TextObjects1.length;i<l;++
     }
 }
 gdjs.HelpCode.GDPuzzle_9595TextObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28261468);
-}
-}
 if (isConditionTrue_0) {
 /* Reuse gdjs.HelpCode.GDPuzzleInputObjects1 */
 {for(var i = 0, len = gdjs.HelpCode.GDPuzzleInputObjects1.length ;i < len;++i) {
@@ -5934,21 +5946,6 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Clickable");
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
 }
 }
 

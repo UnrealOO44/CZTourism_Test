@@ -5101,7 +5101,7 @@ gdjs.copyArray(runtimeScene.getObjects("Notification"), gdjs.Charles_95Bridge_95
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.Charles_95Bridge_95CompletedCode.GDNotificationObjects2.length;i<l;++i) {
-    if ( gdjs.Charles_95Bridge_95CompletedCode.GDNotificationObjects2[i].getY() > 1090 ) {
+    if ( gdjs.Charles_95Bridge_95CompletedCode.GDNotificationObjects2[i].getY() > 1080 ) {
         isConditionTrue_0 = true;
         gdjs.Charles_95Bridge_95CompletedCode.GDNotificationObjects2[k] = gdjs.Charles_95Bridge_95CompletedCode.GDNotificationObjects2[i];
         ++k;
@@ -5120,6 +5120,8 @@ gdjs.copyArray(runtimeScene.getObjects("Hint_btn"), gdjs.Charles_95Bridge_95Comp
 gdjs.copyArray(runtimeScene.getObjects("Menu_btn"), gdjs.Charles_95Bridge_95CompletedCode.GDMenu_9595btnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Notification_down_btn"), gdjs.Charles_95Bridge_95CompletedCode.GDNotification_9595down_9595btnObjects2);
 {gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
+}
+{runtimeScene.getGame().getVariables().getFromIndex(19).setNumber(0);
 }
 {for(var i = 0, len = gdjs.Charles_95Bridge_95CompletedCode.GDHint_9595btnObjects2.length ;i < len;++i) {
     gdjs.Charles_95Bridge_95CompletedCode.GDHint_9595btnObjects2[i].returnVariable(gdjs.Charles_95Bridge_95CompletedCode.GDHint_9595btnObjects2[i].getVariables().getFromIndex(1)).setNumber(0);
@@ -5256,7 +5258,57 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), 
 
 
 };gdjs.Charles_95Bridge_95CompletedCode.mapOfGDgdjs_9546Charles_959595Bridge_959595CompletedCode_9546GDReturn_95959595btnObjects1Objects = Hashtable.newFrom({"Return_btn": gdjs.Charles_95Bridge_95CompletedCode.GDReturn_9595btnObjects1});
-gdjs.Charles_95Bridge_95CompletedCode.mapOfGDgdjs_9546Charles_959595Bridge_959595CompletedCode_9546GDClick_95959595linkObjects1Objects = Hashtable.newFrom({"Click_link": gdjs.Charles_95Bridge_95CompletedCode.GDClick_9595linkObjects1});
+gdjs.Charles_95Bridge_95CompletedCode.asyncCallback22967388 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95Bridge_95CompletedCode.localVariables);
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber(), 2);
+}
+gdjs.Charles_95Bridge_95CompletedCode.localVariables.length = 0;
+}
+gdjs.Charles_95Bridge_95CompletedCode.idToCallbackMap.set(22967388, gdjs.Charles_95Bridge_95CompletedCode.asyncCallback22967388);
+gdjs.Charles_95Bridge_95CompletedCode.eventsList50 = function(runtimeScene, asyncObjectsList) {
+
+{
+
+
+{
+const parentAsyncObjectsList = asyncObjectsList;
+{
+const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95Bridge_95CompletedCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95Bridge_95CompletedCode.asyncCallback22967388(runtimeScene, asyncObjectsList)), 22967388, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.Charles_95Bridge_95CompletedCode.asyncCallback42392756 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95Bridge_95CompletedCode.localVariables);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "3. Arrival in Prague.mp3", 1, true, 0, 1);
+}
+
+{ //Subevents
+gdjs.Charles_95Bridge_95CompletedCode.eventsList50(runtimeScene, asyncObjectsList);} //End of subevents
+gdjs.Charles_95Bridge_95CompletedCode.localVariables.length = 0;
+}
+gdjs.Charles_95Bridge_95CompletedCode.idToCallbackMap.set(42392756, gdjs.Charles_95Bridge_95CompletedCode.asyncCallback42392756);
+gdjs.Charles_95Bridge_95CompletedCode.eventsList51 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Charles_95Bridge_95CompletedCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.Charles_95Bridge_95CompletedCode.asyncCallback42392756(runtimeScene, asyncObjectsList)), 42392756, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.Charles_95Bridge_95CompletedCode.mapOfGDgdjs_9546Charles_959595Bridge_959595CompletedCode_9546GDClick_95959595linkObjects1Objects = Hashtable.newFrom({"Click_link": gdjs.Charles_95Bridge_95CompletedCode.GDClick_9595linkObjects1});
 gdjs.Charles_95Bridge_95CompletedCode.asyncCallback26565828 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95Bridge_95CompletedCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), false);
@@ -5266,7 +5318,7 @@ asyncObjectsList.restoreLocalVariablesContainers(gdjs.Charles_95Bridge_95Complet
 gdjs.Charles_95Bridge_95CompletedCode.localVariables.length = 0;
 }
 gdjs.Charles_95Bridge_95CompletedCode.idToCallbackMap.set(26565828, gdjs.Charles_95Bridge_95CompletedCode.asyncCallback26565828);
-gdjs.Charles_95Bridge_95CompletedCode.eventsList50 = function(runtimeScene) {
+gdjs.Charles_95Bridge_95CompletedCode.eventsList52 = function(runtimeScene) {
 
 {
 
@@ -5284,7 +5336,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2)
 
 };gdjs.Charles_95Bridge_95CompletedCode.mapOfGDgdjs_9546Charles_959595Bridge_959595CompletedCode_9546GDClick_95959595linkObjects1Objects = Hashtable.newFrom({"Click_link": gdjs.Charles_95Bridge_95CompletedCode.GDClick_9595linkObjects1});
 gdjs.Charles_95Bridge_95CompletedCode.mapOfGDgdjs_9546Charles_959595Bridge_959595CompletedCode_9546GDClick_95959595linkObjects1Objects = Hashtable.newFrom({"Click_link": gdjs.Charles_95Bridge_95CompletedCode.GDClick_9595linkObjects1});
-gdjs.Charles_95Bridge_95CompletedCode.eventsList51 = function(runtimeScene) {
+gdjs.Charles_95Bridge_95CompletedCode.eventsList53 = function(runtimeScene) {
 
 {
 
@@ -5532,10 +5584,15 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "Clickable");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28258948);
+}
 }
 }
 }
@@ -5633,11 +5690,6 @@ for (var i = 0, k = 0, l = gdjs.Charles_95Bridge_95CompletedCode.GDPuzzle_9595Te
     }
 }
 gdjs.Charles_95Bridge_95CompletedCode.GDPuzzle_9595TextObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(28261468);
-}
-}
 if (isConditionTrue_0) {
 /* Reuse gdjs.Charles_95Bridge_95CompletedCode.GDPuzzleInputObjects1 */
 {for(var i = 0, len = gdjs.Charles_95Bridge_95CompletedCode.GDPuzzleInputObjects1.length ;i < len;++i) {
@@ -5745,21 +5797,6 @@ if (isConditionTrue_0) {
 
 {
 
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(19).getAsNumber() == 0);
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.camera.showLayer(runtimeScene, "Clickable");
-}
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("Return_btn"), gdjs.Charles_95Bridge_95CompletedCode.GDReturn_9595btnObjects1);
 
 let isConditionTrue_0 = false;
@@ -5783,6 +5820,11 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);
 }
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 0, 2);
+}
+
+{ //Subevents
+gdjs.Charles_95Bridge_95CompletedCode.eventsList51(runtimeScene);} //End of subevents
 }
 
 }
@@ -5832,7 +5874,7 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.Charles_95Bridge_95Comple
 }
 
 { //Subevents
-gdjs.Charles_95Bridge_95CompletedCode.eventsList50(runtimeScene);} //End of subevents
+gdjs.Charles_95Bridge_95CompletedCode.eventsList52(runtimeScene);} //End of subevents
 }
 
 }
@@ -6090,7 +6132,7 @@ gdjs.Charles_95Bridge_95CompletedCode.GDClick_9595outsideObjects2.length = 0;
 gdjs.Charles_95Bridge_95CompletedCode.GDClick_9595outsideObjects3.length = 0;
 gdjs.Charles_95Bridge_95CompletedCode.GDClick_9595outsideObjects4.length = 0;
 
-gdjs.Charles_95Bridge_95CompletedCode.eventsList51(runtimeScene);
+gdjs.Charles_95Bridge_95CompletedCode.eventsList53(runtimeScene);
 gdjs.Charles_95Bridge_95CompletedCode.GDBackgroundObjects1.length = 0;
 gdjs.Charles_95Bridge_95CompletedCode.GDBackgroundObjects2.length = 0;
 gdjs.Charles_95Bridge_95CompletedCode.GDBackgroundObjects3.length = 0;
