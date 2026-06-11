@@ -46,9 +46,6 @@ gdjs.FlightCode.GDNotification_9595close_9595btnObjects3= [];
 gdjs.FlightCode.GDMenu_9595btnObjects1= [];
 gdjs.FlightCode.GDMenu_9595btnObjects2= [];
 gdjs.FlightCode.GDMenu_9595btnObjects3= [];
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects1= [];
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects2= [];
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects3= [];
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects1= [];
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects2= [];
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects3= [];
@@ -162,7 +159,7 @@ gdjs.FlightCode.GDClick_9595outsideObjects2= [];
 gdjs.FlightCode.GDClick_9595outsideObjects3= [];
 
 
-gdjs.FlightCode.asyncCallback27650820 = function (runtimeScene, asyncObjectsList) {
+gdjs.FlightCode.asyncCallback26536172 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.FlightCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.FlightCode.GDDarkenObjects2);
 
@@ -170,17 +167,9 @@ gdjs.copyArray(asyncObjectsList.getObjects("Darken"), gdjs.FlightCode.GDDarkenOb
     gdjs.FlightCode.GDDarkenObjects2[i].getBehavior("Tween").addObjectOpacityTween2("", 0, "linear", 0.5, false);
 }
 }
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 0, 20, 0.5);
-}
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 10, 0.5);
-}
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 2, 15, 0.5);
-}
-{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 3);
-}
 gdjs.FlightCode.localVariables.length = 0;
 }
-gdjs.FlightCode.idToCallbackMap.set(27650820, gdjs.FlightCode.asyncCallback27650820);
+gdjs.FlightCode.idToCallbackMap.set(26536172, gdjs.FlightCode.asyncCallback26536172);
 gdjs.FlightCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -191,20 +180,20 @@ gdjs.FlightCode.eventsList0 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.FlightCode.localVariables);
 for (const obj of gdjs.FlightCode.GDDarkenObjects1) asyncObjectsList.addObject("Darken", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.FlightCode.asyncCallback27650820(runtimeScene, asyncObjectsList)), 27650820, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.FlightCode.asyncCallback26536172(runtimeScene, asyncObjectsList)), 26536172, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.FlightCode.asyncCallback25301220 = function (runtimeScene, asyncObjectsList) {
+};gdjs.FlightCode.asyncCallback25894660 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.FlightCode.localVariables);
-{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 5, 30, 0.5);
+{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 0, runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), 0.5);
 }
 gdjs.FlightCode.localVariables.length = 0;
 }
-gdjs.FlightCode.idToCallbackMap.set(25301220, gdjs.FlightCode.asyncCallback25301220);
+gdjs.FlightCode.idToCallbackMap.set(25894660, gdjs.FlightCode.asyncCallback25894660);
 gdjs.FlightCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -215,29 +204,31 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.FlightCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.FlightCode.asyncCallback25301220(runtimeScene, asyncObjectsList)), 25301220, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.FlightCode.asyncCallback25894660(runtimeScene, asyncObjectsList)), 25894660, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.FlightCode.asyncCallback25299580 = function (runtimeScene, asyncObjectsList) {
+};gdjs.FlightCode.asyncCallback25892804 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.FlightCode.localVariables);
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 0, 0, 3);
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 0, 2);
 }
-{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 0, 0, 1);
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Hotel_2");
 }
-{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 1, 0, 0.5);
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Hotel_View");
 }
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "freesound_community-airplane-landing-6732.mp3", 5, false, 0, 1);
+{gdjs.evtTools.runtimeScene.prioritizeLoadingOfScene(runtimeScene, "Hotel_Desk");
+}
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Airplane_Landing.mp3", 0, false, 0, 1);
 }
 
 { //Subevents
 gdjs.FlightCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.FlightCode.localVariables.length = 0;
 }
-gdjs.FlightCode.idToCallbackMap.set(25299580, gdjs.FlightCode.asyncCallback25299580);
+gdjs.FlightCode.idToCallbackMap.set(25892804, gdjs.FlightCode.asyncCallback25892804);
 gdjs.FlightCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -247,24 +238,26 @@ gdjs.FlightCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.FlightCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.FlightCode.asyncCallback25299580(runtimeScene, asyncObjectsList)), 25299580, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.FlightCode.asyncCallback25892804(runtimeScene, asyncObjectsList)), 25892804, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.FlightCode.asyncCallback25303716 = function (runtimeScene, asyncObjectsList) {
+};gdjs.FlightCode.asyncCallback25898076 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.FlightCode.localVariables);
+{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 0, 0, 0.5);
+}
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber(), 2);
+}
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Hotel_2", false);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(false);
-}
-{gdjs.evtTools.sound.fadeSoundVolume(runtimeScene, 5, 0, 0.5);
+{runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(false);
 }
 gdjs.FlightCode.localVariables.length = 0;
 }
-gdjs.FlightCode.idToCallbackMap.set(25303716, gdjs.FlightCode.asyncCallback25303716);
+gdjs.FlightCode.idToCallbackMap.set(25898076, gdjs.FlightCode.asyncCallback25898076);
 gdjs.FlightCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -274,7 +267,7 @@ gdjs.FlightCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.FlightCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.FlightCode.asyncCallback25303716(runtimeScene, asyncObjectsList)), 25303716, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.2), (runtimeScene) => (gdjs.FlightCode.asyncCallback25898076(runtimeScene, asyncObjectsList)), 25898076, asyncObjectsList);
 }
 }
 
@@ -291,7 +284,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(27650652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26535724);
 }
 }
 if (isConditionTrue_0) {
@@ -316,7 +309,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25299140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25892364);
 }
 }
 if (isConditionTrue_0) {
@@ -349,11 +342,15 @@ for (var i = 0, k = 0, l = gdjs.FlightCode.GDFlightObjects1.length;i<l;++i) {
 gdjs.FlightCode.GDFlightObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25302044);
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.areSceneAssetsLoaded(runtimeScene, "Hotel_Desk");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25895420);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
+{runtimeScene.getGame().getVariables().getFromIndex(4).setBoolean(true);
 }
 }
 
@@ -365,11 +362,11 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(4).getAsBoolean();
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25303036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25896708);
 }
 }
 if (isConditionTrue_0) {
@@ -377,6 +374,8 @@ gdjs.copyArray(runtimeScene.getObjects("Darken"), gdjs.FlightCode.GDDarkenObject
 {for(var i = 0, len = gdjs.FlightCode.GDDarkenObjects1.length ;i < len;++i) {
     gdjs.FlightCode.GDDarkenObjects1[i].getBehavior("Tween").addObjectOpacityTween2("", 255, "linear", 0.2, false);
 }
+}
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "3. Arrival in Prague.mp3", 1, true, 0, 1);
 }
 
 { //Subevents
@@ -436,9 +435,6 @@ gdjs.FlightCode.GDNotification_9595close_9595btnObjects3.length = 0;
 gdjs.FlightCode.GDMenu_9595btnObjects1.length = 0;
 gdjs.FlightCode.GDMenu_9595btnObjects2.length = 0;
 gdjs.FlightCode.GDMenu_9595btnObjects3.length = 0;
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects1.length = 0;
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects2.length = 0;
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects3.length = 0;
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects1.length = 0;
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects2.length = 0;
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects3.length = 0;
@@ -597,9 +593,6 @@ gdjs.FlightCode.GDNotification_9595close_9595btnObjects3.length = 0;
 gdjs.FlightCode.GDMenu_9595btnObjects1.length = 0;
 gdjs.FlightCode.GDMenu_9595btnObjects2.length = 0;
 gdjs.FlightCode.GDMenu_9595btnObjects3.length = 0;
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects1.length = 0;
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects2.length = 0;
-gdjs.FlightCode.GDPhoto_9595close_9595btnObjects3.length = 0;
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects1.length = 0;
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects2.length = 0;
 gdjs.FlightCode.GDPhoto_9595left_9595btnObjects3.length = 0;
